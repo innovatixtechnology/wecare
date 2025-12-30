@@ -11,7 +11,7 @@ const HeaderTopbar = (props) => {
                         <ul className="contact-info">
                             <li>
                                 <i className="ti-email"></i>
-                                <span>support@aidus.com</span>
+                                <span>support@wecare.com</span>
                             </li>
                             <li>
                                 <Link href="tel:+887869587496">
