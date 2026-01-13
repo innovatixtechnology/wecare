@@ -37,7 +37,7 @@ const about = (props) => {
                     </div>
                     <div className="col-lg-6 col-12">
                         <div className="about-content">
-                            <h2>We are always open for children</h2>
+                            <h2>We are always there to help </h2>
                             <h3>Helping each other can
                                 make <span>world</span> better</h3>
                             <p>Helping each other creates a stronger, kinder world. We build trust, spread compassion, and inspire others to do the same. Together, we can overcome challenges and make lasting positive changes.</p>
@@ -49,8 +49,7 @@ const about = (props) => {
                                     </div>
                                     <div className="content">
                                         <h4>Trusted organization</h4>
-                                        <span>Welcome to our Print 128 wesit
-                                            company that offers a wide r</span>
+                                        <span>WE CARE began as a small initiative and has grown into a powerful movement.</span>
                                     </div>
                                 </div>
                                 <div className="inner-item">
@@ -59,20 +58,19 @@ const about = (props) => {
                                     </div>
                                     <div className="content">
                                         <h4>Awarded services</h4>
-                                        <span>Welcome to our Print 128 wesit
-                                            company that offers a wide r</span>
+                                        <span>Ranked 4th in Bihar for Blood Donation Camps</span>
                                     </div>
                                 </div>
                             </div>
-                            <ul>
+                            {/* <ul>
                                 <li><i className="flaticon-check"></i>We help companies develop powerful corporate social
                                     <Link onClick={ClickHandler} href="#">Responsibility</Link></li>
                                 <li><i className="flaticon-check"></i>Helped fund 3,265 Project powerful corporate poor.
                                 </li>
-                            </ul>
+                            </ul> */}
                             <div className="about-btn">
                                 <Link onClick={ClickHandler} href="/about" className="theme-btn">About Us</Link>
-                                <div className="ceo">
+                                {/* <div className="ceo">
                                     <div className="image">
                                         <Image src={CEO} alt="" />
                                     </div>
@@ -80,7 +78,7 @@ const about = (props) => {
                                         <h4>Moses Fahey</h4>
                                         <span>Ceo & Founder</span>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

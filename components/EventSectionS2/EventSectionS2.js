@@ -12,7 +12,7 @@ const EventSectionS2 = () => {
     <section className="event-section section-padding">
       <div className="container-fluid p-0">
         <div className="row g-0">
-          {event.slice(0, 6).map((eventitem, item) => (
+          {event.map((eventitem, item) => (
             <div className="col-xl-4 col-lg-6 col-md-6 col-12" key={item}>
               <div className="card-mv">
                 <Image src={eventitem.eimg} alt="" />

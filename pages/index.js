@@ -15,24 +15,23 @@ import InstagamSection from '../components/InstagamSection/InstagamSection';
 import BlogSection from '../components/BlogSection/BlogSection';
 import Footer from '../components/footer/Footer';
 import Scrollbar from '../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-2.svg'
 
 const HomePage = () => {
     return (
         <Fragment>
-            <Navbar hclass={'wpo-site-header'}  Logo={Logo} />
+            <Navbar hclass={'wpo-site-header'} />
             <Hero hclass={'wpo-hero-slider'} />
-            <PartnerSection hclass={'partners-section'} />
+            {/* <PartnerSection hclass={'partners-section'} /> */}
             <FunFact />
             <About hclass={'about-section section-padding'}/>
             <EventSection />
             <ServiceSection  />
             <CausesSection hclass={"causes-section section-padding pt-0"} />
             <CtaSection hclass={'cta-section'}/>
-            <ProjectSection hclass={'project-section section-padding'}/> 
+            {/* <ProjectSection hclass={'project-section section-padding'}/>  */}
             <Testimonial tClass={'testimonial-section'} />
             <ProcessSection />
-            <InstagamSection hclass={'instagam-section section-padding pb-0'}/>
+            {/* <InstagamSection hclass={'instagam-section section-padding pb-0'}/> */}
             <BlogSection tClass={'blog-section section-padding'}/>
             <Footer />
             <Scrollbar /> 

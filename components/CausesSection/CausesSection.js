@@ -69,7 +69,7 @@ const CausesSection = (props) => {
             </div>
             <div className="causes-slider">
                 <Slider {...settings}>
-                    {causes.slice(0, 6).map((causesData, item) => (
+                    {causes.slice(0, 4).map((causesData, item) => (
                         <div className="causes-card" key={item}>
                             <div className="image">
                                 <span>{causesData.tag}</span>
@@ -90,15 +90,15 @@ const CausesSection = (props) => {
                                 <ul>
                                     <li>
                                         <span className="title">Goal:</span>
-                                        <span>${causesData.goal}</span>
+                                        <span>₹{causesData.goal}</span>
                                     </li>
                                     <li>
                                         <span className="title">Raised:</span>
-                                        <span>${causesData.raised}</span>
+                                        <span>₹{causesData.raised}</span>
                                     </li>
                                     <li>
                                         <span className="title">Goal:</span>
-                                        <span>${causesData.targetGoal}</span>
+                                        <span>₹{causesData.targetGoal}</span>
                                     </li>
                                 </ul>
                             </div>

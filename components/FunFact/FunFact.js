@@ -11,14 +11,12 @@ const FunFact = (props) => {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-12">
                         <div className="content">
-                            <h2>Hope, Support, and Love for All</h2>
-                            <h3>We work together
-                                & never <span>give</span> up</h3>
-                            <p>Aidus is the world’s driving worldwide coordinations supplier — we uphold industry and
-                                exchange the worldwide trade of mercha</p>
-                            <a href="tel:+4733378901">
+                            <h2>Together We Can</h2>
+                            <h3>Let’s Be Better  <span>Humans !</span></h3>
+                            <p>Spreading kindness through action, compassion, and community to create real change.</p>
+                            <a href="tel:+919006955211">
                                 <i className="flaticon-phone-call"></i>
-                                <span>(415) 555-98 76 44</span>
+                                <span>+91 9006955211</span>
                             </a>
                         </div>
                     </div>
@@ -27,15 +25,15 @@ const FunFact = (props) => {
                             <ul>
                                 <li>
                                     <div className="count">
-                                        <h3><CountUp end={500} enableScrollSpy />+</h3>
+                                        <h3><CountUp end={20} enableScrollSpy />+</h3>
                                     </div>
                                     <span>Cities we have connected</span>
                                 </li>
                                 <li>
                                     <div className="count">
-                                        <h3><CountUp end={1} enableScrollSpy />.<CountUp end={5} enableScrollSpy />m</h3>
+                                        <h3><CountUp end={20} enableScrollSpy />k+</h3>
                                     </div>
-                                    <span>Raise funds every month</span>
+                                    <span>Funds raised for every event</span>
                                 </li>
                                 <li>
                                     <div className="count">
@@ -45,9 +43,9 @@ const FunFact = (props) => {
                                 </li>
                                 <li>
                                     <div className="count">
-                                        <h3><CountUp end={95} enableScrollSpy />%</h3>
+                                        <h3><CountUp end={25} enableScrollSpy />+</h3>
                                     </div>
-                                    <span>Successful campains</span>
+                                    <span>Successful Blood campains</span>
                                 </li>
 
                             </ul>

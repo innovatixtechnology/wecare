@@ -16,8 +16,7 @@ const CtaSection = (props) => {
             <div className="container">
                 <div className="content">
                     <span>Compassion in Action: Join Us Today</span>
-                    <h3>children need your help
-                        by donating today</h3>
+                    <h3>Turning care into action for people and communities in need.</h3>
                     <Link onClick={ClickHandler} href="/become-volunteer" className="theme-btn">become voluteer</Link>
                 </div>
             </div>

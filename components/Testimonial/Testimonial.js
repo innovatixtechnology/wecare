@@ -11,33 +11,24 @@ const testimonials = [
     {
         id: '01',
         img: Img1,
-        Des: "The other hand we denounticy grow with righteou indg ation and le men who are so beguiled an Lorem moment.Dislike men who care by the charms of pleasur ipsum with righteou indg ation and lesbi",
-        title: 'Michel Jhonson',
-        sub: "CEO Barta",
+        Des: "Being part of We Care fills me with immense pride as I witness your compassion and agility in addressing community needs, especially during emergencies and conservation efforts.\n\nI am particularly proud of my sons, Nitesh, Kush, and Yash, and other team members for their dedication in founding and supporting the We Care NGO. Their initiative and leadership inspire me daily.\n\nAs you continue your impactful work, please accept my best wishes. Your efforts have significantly improved countless lives, and I wholeheartedly support your mission",
+        title: 'Dr. Anupma Dubey',
+        sub: "Assistant professor New horizion college of education",
     },
     {
         id: '02',
         img: Img2,
-        Des: "The other hand we denounticy grow with righteou indg ation and le men who are so beguiled an Lorem moment.Dislike men who care by the charms of pleasur ipsum with righteou indg ation and lesbi",
-        title: 'Tommy Kraft',
-        sub: "Fashion Designer",
+        Des: "I first met the We Care team during a health event a few years ago, and since then, I've seen their unwavering dedication in organizing blood donation, providing essential healthcare services, educating children in slums, planting trees for a greener environment, and supporting flood victims  during emergencies. Their commitment to these causes is truly commendable, and being part of We Care fills me with immense pride. I extend my heartfelt best wishes to the team as they continue their impactful work for our community.",
+        title: 'Ashish Dev',
+        sub: "Assistant Prosecution Officer - Home Department, Bihar",
     },
     {
         id: '03',
         img: Img1,
-        Des: "The other hand we denounticy grow with righteou indg ation and le men who are so beguiled an Lorem moment.Dislike men who care by the charms of pleasur ipsum with righteou indg ation and lesbi",
-        title: 'Curtis Fahey',
-        sub: "Managin dirctor",
+        Des: "A bunch of hardworking, dedicated youths, We Care NGO has tirelessly served the people of Bhagalpur. They organize mega blood donation camps, provide free education to poor children, distribute blankets in winter, conduct cleanliness drives, and protect plants from insects, all with great zeal and dedication. I have been in the social field for the last ten years, and about three or four years ago, I discovered We Care in Adampur, Bhagalpur. Among many organizations, We Care stands out with its positive environment and creative minds. Working with them is a great experience that enhances inner talents and skills.",
+        title: 'Md.Ainul Hoda',
+        sub: "Ex Territory Sales Incharge Gillette India Ltd",
     },
-    {
-        id: '04',
-        img: Img2,
-        Des: "The other hand we denounticy grow with righteou indg ation and le men who are so beguiled an Lorem moment.Dislike men who care by the charms of pleasur ipsum with righteou indg ation and lesbi",
-        title: 'Curtis Fahey',
-        sub: "Managin dirctor",
-    },
-
-
 ]
 
 

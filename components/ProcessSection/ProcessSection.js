@@ -28,7 +28,7 @@ const ProcessSection = () => {
                             <i className="flaticon-shield"></i>
                             <span>02</span>
                         </div>
-                        <h2>Collect Money</h2>
+                        <h2>Mobilize Support </h2>
                         <div className="shape">
                             <Image src={shapeArrow} alt="" />
                         </div>
@@ -48,7 +48,7 @@ const ProcessSection = () => {
                             <i className="flaticon-delivery-truck"></i>
                             <span>04</span>
                         </div>
-                        <h2>Distribute Goods</h2>
+                        <h2>Deliver Aid</h2>
                         <div className="shape">
                             <Image src={shapeArrow} alt="" />
                         </div>

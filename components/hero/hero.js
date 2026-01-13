@@ -38,12 +38,12 @@ const Hero = (props) => {
                         <div className="container-fluid">
                             <div className="slide-content">
                                 <div className="slide-title">
-                                    <span>We can brighten every child's future.</span>
+                                    <span>Beacon of Compassion : Donate Blood, Save Live</span>
                                 </div>
                                 <div className="slide-sub-title">
-                                    <h2>Give support
-                                        to <span>poverties</span> & <span className="text">Old </span>
-                                        non profit Care</h2>
+                                    <h2>Change The
+                                        <span> Life, </span> Change The <span className="text">world </span>
+                                    </h2>
                                 </div>
                                 <div data-swiper-parallax="500" className="slide-btns">
                                     <Link onClick={ClickHandler} href="/about" className="theme-btn">About Us</Link>
@@ -53,7 +53,50 @@ const Hero = (props) => {
                                         </div>
                                         <div className="text">
                                             <h3>Call Us Now</h3>
-                                            <span>+025 757 576 560</span>
+                                            <span>+91 9006955211</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="bg-shape">
+                            <Image src={shape1} alt="" />
+                        </div>
+                        <div className="shape-1">
+                            <Image src={shape2} alt="" />
+                        </div>
+                        <div className="shape-2">
+                            <Image src={shape3} alt="" />
+                        </div>
+                        <div className="shape-3">
+                            <Image src={shape4} alt="" />
+                        </div>
+                        <div className="shape-4">
+                            <Image src={shape5} alt="" />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                                <SwiperSlide>
+                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-1.jpg'})` }}>
+                        <div className="container-fluid">
+                            <div className="slide-content">
+                                <div className="slide-title">
+                                    <span>Paathshala Udaan Hausloon Ki</span>
+                                </div>
+                                <div className="slide-sub-title">
+                                    <h2>Giving Help 
+                                        <span> To, </span> Those Who <span className="text">Needs It </span>
+                                    </h2>
+                                </div>
+                                <div data-swiper-parallax="500" className="slide-btns">
+                                    <Link onClick={ClickHandler} href="/about" className="theme-btn">About Us</Link>
+                                    <div className="call">
+                                        <div className="icon">
+                                            <i className="flaticon-phone"></i>
+                                        </div>
+                                        <div className="text">
+                                            <h3>Call Us Now</h3>
+                                            <span>+91 9006955211</span>
                                         </div>
                                     </div>
                                 </div>
@@ -82,12 +125,12 @@ const Hero = (props) => {
                         <div className="container-fluid">
                             <div className="slide-content">
                                 <div className="slide-title">
-                                    <span>We are always open for children</span>
+                                    <span>Project Prakriti</span>
                                 </div>
                                 <div className="slide-sub-title">
-                                    <h2>Give support
-                                        to <span>poverties</span> & <span className="text">Old </span>
-                                        non profit Care</h2>
+                                    <h2>Better Environment 
+                                         <span className="text"> Better Tomorrow </span>
+                                        </h2>
                                 </div>
                                 <div data-swiper-parallax="500" className="slide-btns">
                                     <Link onClick={ClickHandler} href="/about" className="theme-btn">About Us</Link>
@@ -97,7 +140,7 @@ const Hero = (props) => {
                                         </div>
                                         <div className="text">
                                             <h3>Call Us Now</h3>
-                                            <span>+025 757 576 560</span>
+                                            <span>+91 9162410681</span>
                                         </div>
                                     </div>
                                 </div>

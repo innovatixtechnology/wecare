@@ -1,13 +1,15 @@
 import React from "react";
 import VideoModal from "../ModalVideo/VideoModal";
 import Link from "next/link";
-import Services from "../../api/Services";
+import events from "../../api/event";
 import Img1 from "/public/images/service/1.jpg";
 import Img2 from "/public/images/service/2.jpg";
 import Img3 from "/public/images/service/3.jpg";
 import shape from "/public/images/service/shape-1.svg";
 import shape2 from "/public/images/service/shape-2.svg";
 import Image from "next/image";
+
+const HIGHLIGHTED_EVENTS_IDS = ['1', '4', '7', '2', '3']
 
 const ServiceSection = (props) => {
   const ClickHandler = () => {
@@ -20,7 +22,7 @@ const ServiceSection = (props) => {
           <div className="col-lg-8 col-12">
             <div className="section-title">
               <span>Together, We Can Change Lives Forever.</span>
-              <h2>our non-profit services you must love</h2>
+              <h2>What we do</h2>
             </div>
           </div>
           <div className="col-lg-4 col-12">
@@ -30,7 +32,7 @@ const ServiceSection = (props) => {
                 href="/service"
                 className="theme-btn"
               >
-                All Services
+                Our Events
               </Link>
             </div>
           </div>
@@ -40,7 +42,7 @@ const ServiceSection = (props) => {
             <div className="col-lg-5 col-12">
               <div className="service-left">
                 <ul>
-                  {Services.slice(0, 5).map((Service, item) => (
+                  {events.map((Service, item) => HIGHLIGHTED_EVENTS_IDS.includes(Service.id) ? (
                     <li key={item}>
                       <Link
                         onClick={ClickHandler}
@@ -51,11 +53,11 @@ const ServiceSection = (props) => {
                         {Service.title}
                       </Link>
                     </li>
-                  ))}
+                  ) : null)}
                 </ul>
                 <div className="s-more">
                   <Link onClick={ClickHandler} href="/service">
-                    More Services
+                    View More 
                   </Link>
                 </div>
                 <div className="shape">

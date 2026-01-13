@@ -22,13 +22,13 @@ const HeaderTopbar = (props) => {
                     </div>
                     <div className="col-lg-6 col-12">
                         <div className="contact-into">
-                            <LanguageSelector/>
+                            {/* <LanguageSelector/>
                             <div className="pryment-selector">
                                 <select>
                                     <option value="usd">USD</option>
                                     <option value="aud">AUD</option>
                                 </select>
-                            </div>
+                            </div> */}
                             <ul className="social-media">
                                 <li><Link href="#"><i className="flaticon-facebook-app-symbol"></i></Link></li>
                                 <li><Link href="#"><i className="flaticon-linkedin"></i></Link></li>

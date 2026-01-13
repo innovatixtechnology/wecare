@@ -1763,6 +1763,7 @@ img {
 /* midbar */
 .midbar {
   padding: 0 255px;
+  background-color: red;
 }
 @media (max-width: 1700px) {
   .midbar {
@@ -1777,6 +1778,9 @@ img {
 .midbar .logo-mid {
   max-width: 126px;
   max-height: 46px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: red;
 }
 @media (max-width: 991px) {
   .midbar .logo-mid {
