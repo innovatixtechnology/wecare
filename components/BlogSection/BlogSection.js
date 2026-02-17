@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import blogs from '../../api/blogs'
-import Shape from '/public/images/blog/bg-shape.png'
 import Shape1 from '/public/images/blog/business.svg'
 import Image from "next/image";
 
@@ -29,7 +28,7 @@ const BlogSection = (props) => {
                     {
                         blogs.slice(0,3).map((bloge, bkye) => (
                             <div className="col-lg-4 col-md-6 col-12" key={bkye}>
-                                <div className="blog-card">
+                                <div className="blog-card ">
                                     <div className="image">
                                         <Image src={bloge.screens} alt="" />
                                         <Image src={bloge.screens} alt="" />
@@ -39,11 +38,11 @@ const BlogSection = (props) => {
                                         <li><i className="flaticon-chat"></i>2 Comments</li>
                                     </ul>
                                     <div className="content">
-                                        <h3><Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${bloge.slug}`}>{bloge.title}</Link></h3>
+                                        <h3><Link onClick={ClickHandler} href={'/blog/[slug]'} as={`/blog/${bloge.slug}`}>{bloge.title}</Link></h3>
                                         <p>{bloge.description}</p>
                                         <div className="content_bottom">
-                                            <span><Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${bloge.slug}`}>Read More <i className="flaticon-next"></i></Link></span>
-                                            <span><Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${bloge.slug}`}>
+                                            <span><Link onClick={ClickHandler} href={'/blog/[slug]'} as={`/blog/${bloge.slug}`}>Read More <i className="flaticon-next"></i></Link></span>
+                                            <span><Link onClick={ClickHandler} href={'/blog/[slug]'} as={`/blog/${bloge.slug}`}>
                                                 <Image src={Shape1} alt="" />
                                                 Business</Link></span>
                                         </div>
@@ -54,9 +53,9 @@ const BlogSection = (props) => {
                     }
                 </div>
             </div>
-            <div className="shape">
+            {/* <div className="shape">
                 <Image src={Shape} alt="" />
-            </div>
+            </div> */}
         </section>
     );
 }

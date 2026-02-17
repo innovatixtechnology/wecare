@@ -53,14 +53,13 @@ const ServiceSection4 = (props) => {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-12">
                         <div className="section-title">
-                            <span><Image src={Shape} alt="" />Together, We Can Change Lives Forever.</span>
-                            <h2>how we connect with
-                                people <span>helping</span></h2>
+                            <span><Image src={Shape} alt="" />Together, We Create Change</span>
+                            <h2>How We Connect With People & Communities</h2>
                         </div>
                     </div>
                     <div className="col-lg-6 col-12">
                         <div className="service-btn">
-                            <Link onClick={ClickHandler} href="/service" className="theme-btn">All Services</Link>
+                            <Link onClick={ClickHandler} href="/service" className="theme-btn">Our Event</Link>
                         </div>
                     </div>
                 </div>

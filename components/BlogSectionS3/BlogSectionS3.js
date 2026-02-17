@@ -28,8 +28,8 @@ const BlogSectionS3 = () => {
                                         <li><i className="flaticon-calendar"></i>{bloge.create_at}</li>
                                         <li><i className="flaticon-chat"></i> 03 Comments</li>
                                     </ul>
-                                    <h3><Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${bloge.slug}`}>{bloge.title}</Link></h3>
-                                    <Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${bloge.slug}`}>Read More</Link>
+                                    <h3><Link onClick={ClickHandler} href={'/blog/[slug]'} as={`/blog/${bloge.slug}`}>{bloge.title}</Link></h3>
+                                    <Link onClick={ClickHandler} href={'/blog/[slug]'} as={`/blog/${bloge.slug}`}>Read More</Link>
                                 </div>
                             </div>
                         ))}
@@ -43,7 +43,7 @@ const BlogSectionS3 = () => {
                                         <li><i className="flaticon-calendar"></i>{bloge.create_at}</li>
                                         <li><i className="flaticon-chat"></i> 03 Comments</li>
                                     </ul>
-                                    <h3><Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${bloge.slug}`}>{bloge.title}</Link></h3>
+                                    <h3><Link onClick={ClickHandler} href={'/blog/[slug]'} as={`/blog/${bloge.slug}`}>{bloge.title}</Link></h3>
                                 </div>
                             </div>
                         ))}

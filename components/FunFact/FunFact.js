@@ -14,10 +14,10 @@ const FunFact = (props) => {
                             <h2>Together We Can</h2>
                             <h3>Let’s Be Better  <span>Humans !</span></h3>
                             <p>Spreading kindness through action, compassion, and community to create real change.</p>
-                            <a href="tel:+919006955211">
+                            {/* <a href="tel:+919006955211">
                                 <i className="flaticon-phone-call"></i>
                                 <span>+91 9006955211</span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                     <div className="col-lg-6 col-12">

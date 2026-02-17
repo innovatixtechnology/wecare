@@ -106,9 +106,9 @@ const CausesSection = (props) => {
                     ))}
                 </Slider>
             </div>
-            <div className="shape">
+            {/* <div className="shape">
                 <Image src={shape} alt="" />
-            </div>
+            </div> */}
             <div className="shape-2">            
                 <Image src={shape2} alt="" />
             </div>

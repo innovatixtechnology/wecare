@@ -96,12 +96,12 @@ const about = (props) => {
             <div className="shape-4">
                 <Image src={shape4} alt="" />
             </div>
-            <div className="shape-5">
+            {/* <div className="shape-5">
                 <Image src={shape5} alt="" />
-            </div>
-            <div className="shape-6">
+            </div> */}
+            {/* <div className="shape-6">
                 <Image src={shape6} alt="" />
-            </div>
+            </div> */}
         </section>
     );
 };

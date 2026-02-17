@@ -11,25 +11,54 @@ const testimonials = [
     {
         id: '01',
         img: Img1,
-        Des: "Being part of We Care fills me with immense pride as I witness your compassion and agility in addressing community needs, especially during emergencies and conservation efforts.\n\nI am particularly proud of my sons, Nitesh, Kush, and Yash, and other team members for their dedication in founding and supporting the We Care NGO. Their initiative and leadership inspire me daily.\n\nAs you continue your impactful work, please accept my best wishes. Your efforts have significantly improved countless lives, and I wholeheartedly support your mission",
-        title: 'Dr. Anupma Dubey',
-        sub: "Assistant professor New horizion college of education",
+        Des: "Witnessing We Care’s work in blood donation, healthcare, and community relief has been truly inspiring. Their dedication to improving lives reflects genuine compassion and commitment.",
+        title: 'Sanu Kumar',
+        sub: 'Manager, Dakshin Bihar Gramin Bank',
     },
     {
         id: '02',
         img: Img2,
-        Des: "I first met the We Care team during a health event a few years ago, and since then, I've seen their unwavering dedication in organizing blood donation, providing essential healthcare services, educating children in slums, planting trees for a greener environment, and supporting flood victims  during emergencies. Their commitment to these causes is truly commendable, and being part of We Care fills me with immense pride. I extend my heartfelt best wishes to the team as they continue their impactful work for our community.",
+        Des: "We Care’s consistent efforts in blood donation, education, and disaster support show true dedication to community welfare. Their impact continues to inspire trust and respect.",
         title: 'Ashish Dev',
-        sub: "Assistant Prosecution Officer - Home Department, Bihar",
+        sub: 'Assistant Prosecution Officer, Home Department, Bihar',
     },
     {
         id: '03',
         img: Img1,
-        Des: "A bunch of hardworking, dedicated youths, We Care NGO has tirelessly served the people of Bhagalpur. They organize mega blood donation camps, provide free education to poor children, distribute blankets in winter, conduct cleanliness drives, and protect plants from insects, all with great zeal and dedication. I have been in the social field for the last ten years, and about three or four years ago, I discovered We Care in Adampur, Bhagalpur. Among many organizations, We Care stands out with its positive environment and creative minds. Working with them is a great experience that enhances inner talents and skills.",
-        title: 'Md.Ainul Hoda',
-        sub: "Ex Territory Sales Incharge Gillette India Ltd",
+        Des: "Seeing We Care work so passionately—whether in education or blood donation—has been deeply inspiring. Their commitment to society is truly commendable.",
+        title: 'Nitish Kumar',
+        sub: 'Branch Manager, UCO Bank',
     },
-]
+    {
+        id: '04',
+        img: Img1,
+        Des: "Being associated with We Care has shown me the power of collective action. Their work in blood donation and community support creates real and lasting impact.",
+        title: 'Shekhar Jha',
+        sub: 'Associate, State Bank of India',
+    },
+    {
+        id: '05',
+        img: Img1,
+        Des: "We Care’s compassion-driven work in education, healthcare, and relief efforts sets a powerful example. Their dedication to social betterment is truly admirable.",
+        title: 'Dr. (Prof.) Sita Bhagat',
+        sub: 'Associate Professor, TMBU Bhagalpur',
+    },
+    {
+        id: '06',
+        img: Img1,
+        Des: "We Care’s commitment to addressing community needs through education and relief work is inspiring. Their leadership continues to touch countless lives.",
+        title: 'Dr. Anupma Dubey',
+        sub: 'Assistant Professor, New Horizon College of Education',
+    },
+    {
+        id: '07',
+        img: Img1,
+        Des: "We Care’s dedication to blood donation and child education creates meaningful change. Their efforts save lives today and shape a better future.",
+        title: 'Dr. Ayush Srivastava',
+        sub: 'Assistant Professor, AIIMS Jammu',
+    },
+];
+
 
 
 

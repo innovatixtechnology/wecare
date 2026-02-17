@@ -21,9 +21,9 @@ const AboutPage = () => {
         <Fragment>
             <Navbar hclass={'wpo-site-header'} Logo={Logo} />
             <PageTitle pageTitle={'About Us'} pagesub={'About'} />
-            <AboutS2 hclass={'about-section-s4 section-padding'} />
+            <AboutS2 hclass={'about-section-s4'} />
             <FunFactS2 hclass={'funfact-section-s2'} />
-            <ServiceSection4 hclass={"service-section-s5 section-padding"} />
+            <ServiceSection4 hclass={"service-section-s5"} />
             <CtaSection hclass={'cta-section'} />
             <DonateSection />
             <TeamSection hclass={'volunteer-section section-padding'} />

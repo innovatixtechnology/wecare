@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import VideoModal from "../ModalVideo/VideoModal";
 import Link from "next/link";
-import events from "../../api/event";
+import Services from "../../api/Services";
 import Img1 from "/public/images/service/1.jpg";
 import Img2 from "/public/images/service/2.jpg";
 import Img3 from "/public/images/service/3.jpg";
@@ -12,9 +12,13 @@ import Image from "next/image";
 const HIGHLIGHTED_EVENTS_IDS = ['1', '4', '7', '2', '3']
 
 const ServiceSection = (props) => {
+  const [highlightedEvents, setHighlightedEvents] = useState(HIGHLIGHTED_EVENTS_IDS);
   const ClickHandler = () => {
-    window.scrollTo(10, 0);
+    setHighlightedEvents((prev) => Services.map((ev)=>ev.id))
   };
+  const handleLess = () => {
+    setHighlightedEvents((prev) => HIGHLIGHTED_EVENTS_IDS)
+  }
   return (
     <section className="service-section section-padding">
       <div className="container">
@@ -22,7 +26,7 @@ const ServiceSection = (props) => {
           <div className="col-lg-8 col-12">
             <div className="section-title">
               <span>Together, We Can Change Lives Forever.</span>
-              <h2>What we do</h2>
+              <h2>Our non-profit work you must love</h2>
             </div>
           </div>
           <div className="col-lg-4 col-12">
@@ -32,7 +36,16 @@ const ServiceSection = (props) => {
                 href="/service"
                 className="theme-btn"
               >
-                Our Events
+                Our Services
+              </Link>
+            </div>
+                        <div className="">
+              <Link
+                onClick={ClickHandler}
+                href="/causes"
+                className="theme-btn"
+              >
+                Support causes
               </Link>
             </div>
           </div>
@@ -42,12 +55,12 @@ const ServiceSection = (props) => {
             <div className="col-lg-5 col-12">
               <div className="service-left">
                 <ul>
-                  {events.map((Service, item) => HIGHLIGHTED_EVENTS_IDS.includes(Service.id) ? (
+                  {Services.map((Service, item) => highlightedEvents.includes(Service.id) ? (
                     <li key={item}>
                       <Link
                         onClick={ClickHandler}
-                        href={"/service-single/[slug]"}
-                        as={`/service-single/${Service.slug}`}
+                        href={"/service/[slug]"}
+                        as={`/service/${Service.slug}`}
                       >
                         <i className={Service.icon}></i>
                         {Service.title}
@@ -56,9 +69,11 @@ const ServiceSection = (props) => {
                   ) : null)}
                 </ul>
                 <div className="s-more">
-                  <Link onClick={ClickHandler} href="/service">
-                    View More 
-                  </Link>
+                 {highlightedEvents.length === Services.length ? <Link onClick={handleLess} href="/service">
+                    View Less
+                  </Link> : <Link onClick={ClickHandler} href="/service">
+                    View More
+                  </Link>}
                 </div>
                 <div className="shape">
                   <svg width="58" height="59" viewBox="0 0 58 59" fill="none">

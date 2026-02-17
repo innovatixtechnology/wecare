@@ -153,7 +153,7 @@ const EventSinglePage = (props) => {
                                                 </div>
                                                 <div className="details">
                                                     <span className="date"><i className="flaticon-calendar"></i>{blog.create_at}</span>
-                                                    <h4><Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${blog.slug}`}>
+                                                    <h4><Link onClick={ClickHandler} href={'/blog/[slug]'} as={`/blog/${blog.slug}`}>
                                                         {blog.title}</Link>
                                                     </h4>
                                                 </div>

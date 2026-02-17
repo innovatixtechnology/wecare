@@ -19,14 +19,14 @@ const ServiceSection3 = (props) => {
                     </div>
                 </div>
                 <div className="service-wrap">
-                    {Services.slice(5, 9).map((service, index) => (
+                    {Services.slice(0, 4).map((service, index) => (
                         <div className="service-card" key={index}>
                             <div className="icon">
                                 <i className={service.icon}></i>
                             </div>
-                            <h2><Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${service.slug}`}>{service.title}</Link></h2>
+                            <h2><Link onClick={ClickHandler} href={'/service/[slug]'} as={`/service/${service.slug}`}>{service.title}</Link></h2>
                             <span>{service.description}</span>
-                            <Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${service.slug}`}>Read More <i className="flaticon-right-arrow"></i></Link>
+                            <Link onClick={ClickHandler} href={'/service/[slug]'} as={`/service/${service.slug}`}>Read More <i className="flaticon-right-arrow"></i></Link>
                         </div>
                     ))}
                 </div>

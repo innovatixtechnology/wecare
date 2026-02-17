@@ -14,6 +14,7 @@ const ClickHandler = () => {
 }
 
 const BlogSidebar = (props) => {
+    const BlogDetails = blogs.find(item => item.slug === props.slug)
     return (
         <div className={`col col-lg-4 col-12 ${props.blLeft}`}>
             <div className="blog-sidebar">
@@ -21,15 +22,13 @@ const BlogSidebar = (props) => {
                     <div className="img-holder">
                         <Image src={about} alt="" />
                     </div>
-                    <h4>Rosalina D. Willaim</h4>
-                    <span>Blogger/Photographer</span>
-                    <p>Hi! beautiful people. I`m an authtor of this blog. Read our post - stay with us</p>
+                    <h4>{BlogDetails?.author}</h4>
                     <div className="social">
                         <ul className="clearfix">
-                            <li><Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack"><i className="ti-facebook"></i></Link></li>
-                            <li><Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack"><i className="ti-twitter-alt"></i></Link></li>
-                            <li><Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack"><i className="ti-linkedin"></i></Link></li>
-                            <li><Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack"><i className="ti-pinterest"></i></Link></li>
+                            <li><Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack"><i className="ti-facebook"></i></Link></li>
+                            <li><Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack"><i className="ti-twitter-alt"></i></Link></li>
+                            <li><Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack"><i className="ti-linkedin"></i></Link></li>
+                            <li><Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack"><i className="ti-pinterest"></i></Link></li>
                         </ul>
                     </div>
                 </div>
@@ -52,7 +51,7 @@ const BlogSidebar = (props) => {
                                 </div>
                                 <div className="details">
                                     <span className="date"><i className="flaticon-calendar"></i>{blog.create_at}</span>
-                                    <h4><Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${blog.slug}`}>{blog.title2}</Link></h4>
+                                    <h4><Link onClick={ClickHandler} href={'/blog/[slug]'} as={`/blog/${blog.slug}`}>{blog.title}</Link></h4>
                                 </div>
                             </div>
                         ))}
@@ -62,10 +61,10 @@ const BlogSidebar = (props) => {
                     <h3>Post Categories</h3>
                     <ul>
                         <ul>
-                            <li><Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Donation Drive<span>5</span></Link></li>
-                            <li><Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Community Outreach<span>7</span></Link></li>
-                            <li><Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Volunteer Assistance<span>3</span></Link></li>
-                            <li><Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Fundraising Event<span>6</span></Link></li>
+                            <li><Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Donation Drive<span>5</span></Link></li>
+                            <li><Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Community Outreach<span>7</span></Link></li>
+                            <li><Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Volunteer Assistance<span>3</span></Link></li>
+                            <li><Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Fundraising Event<span>6</span></Link></li>
                         </ul>
                     </ul>
                 </div>
@@ -73,17 +72,17 @@ const BlogSidebar = (props) => {
                     <h3>Tags</h3>
                     <ul>
                         <li>
-                            <Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Giving Back</Link>
+                            <Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Giving Back</Link>
                         </li>
                         <li>
-                            <Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Relief Effort</Link>
+                            <Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Relief Effort</Link>
                         </li>
                         <li>
-                            <Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Positive Impact</Link>
+                            <Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Positive Impact</Link>
                         </li>
-                        <li><Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Kindness</Link></li>
-                        <li><Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Helping</Link></li>
-                        <li><Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Care</Link></li>
+                        <li><Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Kindness</Link></li>
+                        <li><Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Helping</Link></li>
+                        <li><Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Care</Link></li>
                     </ul>
                 </div>
             </div>

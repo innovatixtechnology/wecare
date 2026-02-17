@@ -19,13 +19,12 @@ const CtaSectionS3 = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-8 col-12">
                             <div className="content">
-                                <h2> <Image src={Shape} alt="" /> Non profit Charity
-                                    Fundation</h2>
-                                <h3>ensure safety & non profit care
-                                    & quality Services</h3>
+                                <h2> <Image src={Shape} alt="" /> A Journey of Care & Compassion
+</h2>
+                                <h3>Together, We Create Impact Where It Matters Most</h3>
                                 <ul>
                                     <li><i className="flaticon-check"></i>Dedicated Team support</li>
-                                    <li><i className="flaticon-check"></i>Excellent care service</li>
+                                    <li><i className="flaticon-check"></i>Community-Driven Care</li>
                                 </ul>
                             </div>
                         </div>
@@ -38,9 +37,6 @@ const CtaSectionS3 = () => {
                     </div>
                     <div className="shape">
                         <Image src={Shape2} alt="" />
-                    </div>
-                    <div className="shape1">
-                        <Image src={Shape3} alt="" />
                     </div>
                 </div>
             </div>

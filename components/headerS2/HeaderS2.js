@@ -124,11 +124,11 @@ const HeaderS2 = (props) => {
                                                 <li className="menu-item-has-children">
                                                     <Link onClick={ClickHandler} href="#">Blog details</Link>
                                                     <ul className="sub-menu">
-                                                        <li><Link onClick={ClickHandler} href="/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Blog details right sidebar</Link>
+                                                        <li><Link onClick={ClickHandler} href="/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Blog details right sidebar</Link>
                                                         </li>
-                                                        <li><Link onClick={ClickHandler} href="/blog-single-left-sidebar/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Blog details left
+                                                        <li><Link onClick={ClickHandler} href="/blog-left-sidebar/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Blog details left
                                                             sidebar</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/blog-single-fullwidth/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Blog details
+                                                        <li><Link onClick={ClickHandler} href="/blog-fullwidth/Why-Industry-Are-A-Juicy-Target-For-Cyberattack">Blog details
                                                             fullwidth</Link></li>
                                                     </ul>
                                                 </li>

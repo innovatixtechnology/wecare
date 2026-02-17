@@ -20,7 +20,7 @@ const ServicePage = () => {
     return (
         <Fragment>
             <Navbar hclass={'wpo-site-header'} Logo={Logo} />
-            <PageTitle pageTitle={'Our Services'} />
+            <PageTitle pageTitle={'What we do'} />
             <ServiceSection />
             <BecomeSection hclass={"become_volunteer"} />
             <ServiceSection3 hclass={'service-section-s3 section-padding '} />

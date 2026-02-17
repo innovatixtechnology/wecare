@@ -10,7 +10,7 @@ const PageTitle = (props) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="breadcumb-wrap">
-                            <h2>trusted non profit</h2>
+                            {/* <h2>trusted non profit</h2> */}
                             <h3>{props.pageTitle}</h3>
                         </div>
                     </div>
@@ -23,13 +23,6 @@ const PageTitle = (props) => {
                         fill="white" fillOpacity="0.18" />
                 </svg>
             </div>
-            <div className="shape-s2">
-                <Image src={Shape} alt="" />
-            </div>
-            <div className="shape-s3">
-                <Image src={Shape2} alt="" />
-            </div>
-
         </div>
     )
 }

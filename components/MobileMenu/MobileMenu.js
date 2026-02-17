@@ -109,7 +109,7 @@ const menus = [
             {
                 id: 42,
                 title: 'Service Single',
-                link: '/service-single/Fund-Raised-&-Donation',
+                link: '/service/Fund-Raised-&-Donation',
             }, 
         ]
     },
@@ -183,17 +183,17 @@ const menus = [
             {
                 id: 64,
                 title: 'Blog single',
-                link: '/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack'
+                link: '/blog/Why-Industry-Are-A-Juicy-Target-For-Cyberattack'
             },
             {
                 id: 65,
                 title: 'Blog single Left sidebar',
-                link: '/blog-single-left-sidebar/Why-Industry-Are-A-Juicy-Target-For-Cyberattack'
+                link: '/blog-left-sidebar/Why-Industry-Are-A-Juicy-Target-For-Cyberattack'
             },
             {
                 id: 66,
                 title: 'Blog details fullwidth',
-                link: '/blog-single-fullwidth/Why-Industry-Are-A-Juicy-Target-For-Cyberattack'
+                link: '/blog-fullwidth/Why-Industry-Are-A-Juicy-Target-For-Cyberattack'
             },
         ]
     },

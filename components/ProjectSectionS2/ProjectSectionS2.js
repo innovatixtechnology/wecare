@@ -57,10 +57,10 @@ const ProjectSectionS2 = (props) => {
                     <div className="project-card" key={pitem}>
                         <Image src={project.pimg1} alt="" />
                         <div className="content">
-                            <h2><Link onClick={ClickHandler} href={'/project-single/[slug]'} as={`/project-single/${project.slug}`}>{project.title}</Link></h2>
+                            <h2><Link onClick={ClickHandler} href={'/project/[slug]'} as={`#`}>{project.title}</Link></h2>
                             <span>{project.subtitle}</span>
                             <div className="icon">
-                                <Link onClick={ClickHandler} href={'/project-single/[slug]'} as={`/project-single/${project.slug}`}>
+                                <Link onClick={ClickHandler} href={'/project/[slug]'} as={`#`}>
                                     <i className="flaticon-arrow-up"></i>
                                 </Link>
                             </div>

@@ -6,9 +6,7 @@ import 'swiper/css/navigation';
 import Link from 'next/link'
 import shape1 from '/public/images/slider/shape-1.svg'
 import shape2 from '/public/images/slider/shape-2.svg'
-import shape3 from '/public/images/slider/shape-3.svg'
 import shape4 from '/public/images/slider/shape-4.png'
-import shape5 from '/public/images/slider/shape-5.svg'
 import Image from "next/image";
 
 
@@ -65,14 +63,8 @@ const Hero = (props) => {
                         <div className="shape-1">
                             <Image src={shape2} alt="" />
                         </div>
-                        <div className="shape-2">
-                            <Image src={shape3} alt="" />
-                        </div>
                         <div className="shape-3">
                             <Image src={shape4} alt="" />
-                        </div>
-                        <div className="shape-4">
-                            <Image src={shape5} alt="" />
                         </div>
                     </div>
                 </SwiperSlide>
@@ -108,14 +100,8 @@ const Hero = (props) => {
                         <div className="shape-1">
                             <Image src={shape2} alt="" />
                         </div>
-                        <div className="shape-2">
-                            <Image src={shape3} alt="" />
-                        </div>
                         <div className="shape-3">
                             <Image src={shape4} alt="" />
-                        </div>
-                        <div className="shape-4">
-                            <Image src={shape5} alt="" />
                         </div>
                     </div>
                 </SwiperSlide>
@@ -151,15 +137,6 @@ const Hero = (props) => {
                         </div>
                         <div className="shape-1">
                             <Image src={shape2} alt="" />
-                        </div>
-                        <div className="shape-2">
-                            <Image src={shape3} alt="" />
-                        </div>
-                        <div className="shape-3">
-                            <Image src={shape4} alt="" />
-                        </div>
-                        <div className="shape-4">
-                            <Image src={shape5} alt="" />
                         </div>
                     </div>
                 </SwiperSlide>

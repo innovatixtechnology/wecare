@@ -18,8 +18,10 @@ const Contactpage = () => {
                                 </div>
                                 <div className="office-info-text">
                                     <h2>address line</h2>
-                                    <p>Bowery St, New York, 37 USA
-                                        <br /> NY 10013,USA</p>
+                                <p>
+Manik Sarkar, T.N. Singh Lane
+Bengali Tola, Bhagalpur, Bihar – 812001
+</p>
                                 </div>
                             </div>
                         </div>
@@ -32,8 +34,7 @@ const Contactpage = () => {
                                 </div>
                                 <div className="office-info-text">
                                     <h2>Phone Number</h2>
-                                    <p>+1255 - 568 - 6523 4374-221 <br />
-                                        +1255 - 568 - 6523</p>
+                                    <p>9006955211 | 9162410681</p>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +47,7 @@ const Contactpage = () => {
                                 </div>
                                 <div className="office-info-text">
                                     <h2>Address</h2>
-                                    <p>contact@aidUs.com <br /> info@aidUs.com</p>
+                                    <p>✉️ info@wecarebgp.org</p>
                                 </div>
                             </div>
                         </div>

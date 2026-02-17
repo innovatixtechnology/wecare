@@ -42,15 +42,15 @@ const CausesPage = () => {
                                         <ul>
                                             <li>
                                                 <span className="title">Goal:</span>
-                                                <span>${causesData.goal}</span>
+                                                <span>₹{causesData.goal}</span>
                                             </li>
                                             <li>
                                                 <span className="title">Raised:</span>
-                                                <span>${causesData.raised}</span>
+                                                <span>₹{causesData.raised}</span>
                                             </li>
                                             <li>
                                                 <span className="title">Goal:</span>
-                                                <span>${causesData.targetGoal}</span>
+                                                <span>₹{causesData.targetGoal}</span>
                                             </li>
                                         </ul>
                                     </div>

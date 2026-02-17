@@ -7099,20 +7099,20 @@ img {
   z-index: 1;
   padding-bottom: 90px;
   overflow: hidden;
-  padding-top: 300px;
-  margin-top: -145px;
+  padding-top: 20px;
+  /* margin-top: -145px; */
 }
 @media (max-width: 1199px) {
   .blog-section,
   .blog-section-s4 {
-    padding-top: 200px;
-    margin-top: -105px;
+    padding-top: 20px;
+    /* margin-top: -105px; */
   }
 }
 @media (max-width: 991px) {
   .blog-section,
   .blog-section-s4 {
-    padding-top: 90px;
+    padding-top: 20px;
     margin-top: 0;
     padding-bottom: 60px;
   }

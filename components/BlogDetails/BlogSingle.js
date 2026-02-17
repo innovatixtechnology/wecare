@@ -3,7 +3,6 @@ import SimpleReactValidator from 'simple-react-validator';
 import Link from 'next/link'
 import blog3 from '/public/images/blog-details/comments-author/img-1.jpg'
 import blog4 from '/public/images/blog-details/comments-author/img-2.jpg'
-import gl0 from '/public/images/blog-details/img-2.jpg'
 import gl1 from '/public/images/blog-details/img-3.jpg'
 import gl2 from '/public/images/blog-details/img-4.jpg'
 import blogs from '../../api/blogs';
@@ -18,7 +17,8 @@ const BlogSingle = (props) => {
 
     const router = useRouter()
 
-    const BlogDetails = blogs.find(item => item.slug === router.query.slug)
+    const BlogDetailsIndex = blogs.findIndex(item => item.slug === router.query.slug);
+    const BlogDetails = blogs[BlogDetailsIndex];
 
 
     const [formData, setFormData] = useState({
@@ -79,45 +79,13 @@ const BlogSingle = (props) => {
                                 </div>
                                 <div className="entry-details">
                                     <h3>{BlogDetails?.title}</h3>
-                                    <p>he whimsically named Egg Canvas is the brainchild of Erica Choi, a design director
-                                        and photo
-                                        grapher based in York. Why the name “Egg Canvas Erica was inspired by her Korean
-                                        childhood
-                                        nickname, which means egg, while “canvas” medium with wh art is created. “Egg Canvas
-                                        therefore, is her life—creating beautiful things each day
-                                        a blank canvas.</p>
-                                    <p>We have covered many special events such as fireworks, fairs, parades, races, walks,
-                                        awards ceremonies, fashion shows, sporting events, and even a memorial service.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate
-                                        vestibulum rhon
-                                        cus, dolor eget viverra pretium, dolor tellus aliquet nunc, vitae ultricies erat
-                                        elit eu lacus. Vestibulum non justo fun consectetur, cursus ante, tincidunt sapien.
-                                        Nulla quis diam sit amet turpis interd enim. Vivamus fauc ex sed nibh egestas
-                                        elementum. Mauris et bibendum</p>
+                                    <p>{BlogDetails?.description}</p>
                                 </div>
                             </div>
                             <blockquote>
-                                Your time is limited, so don’t waste it living someone else’s
-                                life.Don’t be trapped by dogma – which is living with the
-                                <span>John Mehedii</span>
+                                {BlogDetails?.quote}
+                                <span>{BlogDetails?.quoteAuthor}</span>
                             </blockquote>
-                            <div className="post-team-content">
-                                <h3>Let our investment management team</h3>
-                                <div className="row align-items-center">
-                                    <div className="col-lg-7 col-12">
-                                        <ul className="content">
-                                            <li>Lorem Ipsum generators on the tend to repeat.</li>
-                                            <li> If you are going to use a passage.</li>
-                                            <li> Lorem Ipsum generators on the tend to repeat.</li>
-                                            <li> If you are going to use a passage.</li>
-                                            <li> Lorem Ipsum generators on the tend to repeat.</li>
-                                        </ul>
-                                    </div>
-                                    <div className="col-lg-5 col-12">
-                                        <Image src={gl0} alt="" />
-                                    </div>
-                                </div>
-                            </div>
                             <div className="row">
                                 <div className="col-lg-6 col-md-6 col-12 im-1">
                                     <Image src={gl1} alt="" />
@@ -126,10 +94,7 @@ const BlogSingle = (props) => {
                                     <Image src={gl2} alt="" />
                                 </div>
                             </div>
-                            <p>We have covered many special events such as fireworks, fairs, parades, races, walks, awards
-                                ceremonies, fashion shows, sporting events, and even a memorial service.Lorem ipsum dolor
-                                sit amet, consectetur adipiscing elit. vestibulum rhoncus, dolor eget viverra pretium, dolor
-                                ellus aliquet nunc,</p>
+                            <p>{BlogDetails?.description2}</p>
                             <div className="tag-share-wrap">
                                 <div className="row">
                                     <div className="col-lg-6 col-12">
@@ -161,18 +126,26 @@ const BlogSingle = (props) => {
                                 </div>
                             </div>
                             <div className="more-posts">
-                                <div className="previous-post">
-                                    <Link href="/blog">
-                                        <span className="post-control-link">Previous Post</span>
-                                        <span className="post-name">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</span>
-                                    </Link>
-                                </div>
-                                <div className="next-post">
-                                    <Link href="/blog-left-sidebar">
-                                        <span className="post-control-link">Next Post</span>
-                                        <span className="post-name">Dignissimos ducimus qui blanditiis praesentiu deleniti atque corrupti quos dolores</span>
-                                    </Link>
-                                </div>
+                                {
+                                    BlogDetailsIndex > 0 && (
+                                        <div className="previous-post">
+                                            <Link href={`/blog/${blogs[BlogDetailsIndex - 1]?.slug}`}>
+                                                <span className="post-control-link">Previous Post</span>
+                                                <span className="post-name">{blogs[BlogDetailsIndex - 1]?.title}</span>
+                                            </Link>
+                                        </div>
+                                    )
+                                }
+                                {
+                                    BlogDetailsIndex < blogs.length - 1 && (
+                                        <div className="next-post">
+                                            <Link href={`/blog/${blogs[BlogDetailsIndex + 1]?.slug}`}>
+                                                <span className="post-control-link">Next Post</span>
+                                                <span className="post-name">{blogs[BlogDetailsIndex + 1]?.title}</span>
+                                            </Link>
+                                        </div>
+                                    )
+                                }
                             </div>
                             <div className="comments-area">
                                 <div className="comments-section">
@@ -322,7 +295,7 @@ const BlogSingle = (props) => {
                             </div>
                         </div>
                     </div>
-                    <BlogSidebar blLeft={props.blLeft} />
+                    <BlogSidebar blLeft={props.blLeft} slug={BlogDetails?.slug} />
                 </div>
             </div>
         </section>

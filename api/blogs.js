@@ -30,219 +30,104 @@ import recent3 from "/public/images/recent-posts/img-3.jpg";
 const blogs = [
     {
         id: '1',
-        title: 'Caring for the Elderly and Vulnerable Strategy.',
-        title2: 'Budget Issues Force The Our To Become',
-        subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack',
+        title: 'Blood Donation Drives: Strengthening Healthcare Through Community Action',
+        subtitle: 'We Care Initiative',
+        slug: 'blood-donation-drives-community-healthcare',
         screens: blogImg1,
         link: 'READ MORE',
-        description: 'Business is the activity of making one s liv cing or buying and selling products',
-        author: 'Manik Doe',
-        create_at: '01-05-2025',
+        description: 'Blood donation drives play a vital role in saving lives and supporting emergency healthcare. Discover how community-led blood donation initiatives create lasting impact. The Importance of Blood Donation in Today’s World Blood donation is one of the most essential humanitarian actions in healthcare. Every day, hospitals depend on timely blood availability for surgeries, accident cases, and critical treatments. Yet, blood shortages remain a challenge in many regions. Community-based blood donation drives help bridge this gap by encouraging voluntary participation and spreading awareness about safe donation practices. How Organized Blood Donation Drives Save Lives Well-planned blood donation camps ensure donor safety, proper screening, and hygienic medical procedures. These drives bring together volunteers, medical teams, and donors under one shared mission—saving lives. When people donate blood regularly, it builds a sustainable system that supports healthcare facilities during emergencies and peak demand periods. Creating Awareness and Responsibility Blood donation initiatives also play a crucial role in educating people about myths, eligibility, and the long-term benefits of donating blood. Over time, these efforts nurture a responsible and compassionate society. Conclusion: Blood donation is a collective responsibility. Through continuous awareness and participation, communities can ensure that help is always available when it is needed most.',
+        author: 'We Care',
+        create_at: '05-01-2025',
         blogSingleImg: blogSingleImg1,
         recent: recent1,
-        comment: '35',
-        day: '28',
-        month: 'MAR',
+        comment: '18',
+        day: '05',
+        month: 'JAN',
         blClass: 'format-standard-image',
         animation: '1200',
+        quote: "Building ventures is my profession, saving lives is my responsibility. Blood donation reminds us that impact always comes first.",
+        quoteAuthor: "Yash Ryder",
     },
     {
         id: '2',
-        title: 'Varying complexity, provide long-term guarantees',
-        title2: 'The Best Products That Shape Fashion.',
-        subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack2',
+        title: 'Cleanliness Campaigns: Creating Healthier Spaces for Better Living',
+        subtitle: 'We Care Initiative',
+        slug: 'cleanliness-campaigns-healthier-communities',
         screens: blogImg2,
         link: 'READ MORE',
-        description: 'Business is the activity of making one s liv cing or buying and selling products',
-        author: 'Linda Johns',
-        create_at: '01-05-2025',
+        description: `Cleanliness campaigns improve public health, hygiene awareness, and environmental responsibility. Learn how community cleanliness drives bring positive change.
+
+Why Cleanliness Matters for Communities
+
+Clean surroundings are directly linked to better health, dignity, and quality of life. Poor sanitation and unmanaged waste can lead to disease, pollution, and unsafe living conditions.
+
+Cleanliness campaigns focus on restoring public spaces while promoting long-term hygiene awareness.
+
+Community Participation in Cleanliness Drives
+
+Cleanliness drives encourage people from all walks of life to take responsibility for their surroundings. Volunteers participate in cleaning streets, public areas, schools, and community spaces.
+
+Along with cleaning activities, awareness sessions help educate people on waste segregation, sanitation, and daily hygiene practices.
+
+Building Sustainable Hygiene Habits
+
+The goal of cleanliness campaigns is not limited to one-day efforts. These initiatives aim to inspire lasting behavioral change that leads to cleaner neighborhoods and healthier communities.
+
+Conclusion:
+When cleanliness becomes a shared habit, communities grow healthier, safer, and more respectful. Small actions today create a better environment for future generations.`,
+        author: 'We Care',
+        create_at: '12-01-2025',
         blogSingleImg: blogSingleImg2,
         recent: recent2,
-        comment: '35',
-        day: '28',
-        month: 'MAR',
+        comment: '22',
+        day: '12',
+        month: 'JAN',
         blClass: 'format-standard-image',
         animation: '1200',
+        quote: "In technology, we optimize systems. In society, cleanliness does the same—creating healthier spaces where people and ideas can grow.",
+        quoteAuthor: "Nitesh Choubey",
     },
     {
         id: '3',
-        title: 'Our Goal Is Help The Poor Child Around The World',
-        title2: 'The Best Products That Shape Fashion',
-        subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack3',
+        title: 'Paathshala Initiatives: Empowering Children Through Education and Guidance',
+        subtitle: 'We Care Initiative',
+        slug: 'paathshala-initiatives-child-education',
         screens: blogImg3,
         link: 'READ MORE',
-        description: 'Business is the activity of making one s liv cing or buying and selling products',
-        author: 'Manik Doe',
-        create_at: '01-05-2025',
+        description: `Paathshala initiatives support education for underprivileged children by creating inclusive learning spaces and nurturing future potential.
+
+Education as the Foundation of Growth
+
+Education is the key to personal development and social progress. However, many children lack access to consistent learning support and guidance outside formal schooling.
+
+Paathshala initiatives aim to fill this gap by providing structured learning environments and mentorship.
+
+Learning Beyond Textbooks
+
+Paathshala programs focus on basic education, value-based learning, discipline, and confidence-building. Children are encouraged to ask questions, explore creativity, and develop life skills.
+
+Mentors and volunteers play an important role in guiding students and motivating them to believe in their abilities.
+
+Supporting Young Minds for a Brighter Future
+
+By creating safe and inclusive learning spaces, Paathshala initiatives help children build confidence and develop a love for learning. These efforts contribute to stronger communities and a more educated society.
+
+Conclusion:
+When education reaches every child, it transforms not just individual lives but entire communities. Paathshala initiatives are a step toward a brighter and more inclusive future.`,
+        author: 'We Care',
+        create_at: '20-01-2025',
         blogSingleImg: blogSingleImg3,
         recent: recent3,
-        comment: '35',
-        day: '28',
-        month: 'MAR',
+        comment: '30',
+        day: '20',
+        month: 'JAN',
         blClass: 'format-standard-image',
         animation: '1200',
+        quote: "Technology builds the future, but education shapes the minds that lead it. Supporting learning is the most meaningful code we can write.",
+        quoteAuthor: "Sakshi Pandey",
     },
-    {
-        id: '4',
-        title: 'Varying complexity, provide long-term guarantees',
-        title2: 'The Best Products That Shape Fashion',
-        subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack4',
-        screens: blogImg4,
-        link: 'READ MORE',
-        description: 'Business is the activity of making one s liv cing or buying and selling products',
-        author: 'Manik Doe',
-        create_at: '01-05-2025',
-        blogSingleImg: blogSingleImg4,
-        recent: recent3,
-        comment: '35',
-        day: '28',
-        month: 'MAR',
-        blClass: 'format-standard-image',
-        animation: '1200',
-    },
- 
-    {
-        id: '5',
-        title: 'Caring for the Elderly and Vulnerable Strategy',
-        title2: 'The Best Products That Shape Fashion',
-        subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack5',
-        screens: blogImg5,
-        link: 'READ MORE',
-        description: 'Business is the activity of making one s liv cing or buying and selling products',
-        author: 'Manik Doe',
-        create_at: '01-05-2025',
-        blogSingleImg: blogSingleImg5,
-        recent: recent3,
-        comment: '35',
-        day: '28',
-        month: 'MAR',
-        blClass: 'format-standard-image',
-        animation: '1200',
-    },
-    {
-        id: '6',
-        title: 'Caring for the Elderly and Vulnerable Strategy',
-        title2: 'The Best Products That Shape Fashion',
-        subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack6',
-        screens: blogImg6,
-        link: 'READ MORE',
-        description: 'Business is the activity of making one s liv cing or buying and selling products',
-        author: 'Manik Doe',
-        create_at: '01-05-2025',
-        blogSingleImg: blogSingleImg6,
-        recent: recent3,
-        comment: '35',
-        day: '28',
-        month: 'MAR',
-        blClass: 'format-standard-image',
-        animation: '1200',
-    },
-    {
-        id: '7',
-        title: 'Our Goal Is Help The Poor Child Around The World',
-        title2: 'The Best Products That Shape Fashion',
-        subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack7',
-        screens: blogImg7,
-        link: 'READ MORE',
-        description: 'Business is the activity of making one s liv cing or buying and selling products',
-        author: 'Manik Doe',
-        create_at: '01-05-2025',
-        blogSingleImg: blogSingleImg7,
-        recent: recent3,
-        comment: '35',
-        day: '28',
-        month: 'MAR',
-        blClass: 'format-standard-image',
-        animation: '1200',
-    },
-    {
-        id: '8',
-        title: 'If you currently get disability supports the NDIS is available in your area',
-        title2: 'The Best Products That Shape Fashion',
-        subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack7',
-        screens: blogImg8,
-        link: 'READ MORE',
-        description: 'Business is the activity of making one s liv cing or buying and selling products',
-        author: 'Manik Doe',
-        create_at: '01-05-2025',
-        blogSingleImg: blogSingleImg7,
-        recent: recent3,
-        comment: '35',
-        day: '28',
-        month: 'MAR',
-        blClass: 'format-standard-image',
-        animation: '1200',
-    },
-    {
-        id: '9',
-        title: 'Your plan reassessment is the opportunity to check',
-        title2: 'The Best Products That Shape Fashion',
-        subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack7',
-        screens: blogImg9,
-        link: 'READ MORE',
-        description: 'Business is the activity of making one s liv cing or buying and selling products',
-        author: 'Manik Doe',
-        create_at: '01-05-2025',
-        blogSingleImg: blogSingleImg7,
-        recent: recent3,
-        comment: '35',
-        day: '28',
-        month: 'MAR',
-        blClass: 'format-standard-image',
-        animation: '1200',
-    },
-    {
-        id: '10',
-        title: 'Once you have your plan there are people who',
-        title2: 'The Best Products That Shape Fashion',
-        subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack7',
-        screens: blogImg10,
-        link: 'READ MORE',
-        description: 'Business is the activity of making one s liv cing or buying and selling products',
-        author: 'Manik Doe',
-        create_at: '01-05-2025',
-        blogSingleImg: blogSingleImg7,
-        recent: recent3,
-        comment: '35',
-        day: '28',
-        month: 'MAR',
-        blClass: 'format-standard-image',
-        animation: '1200',
-    },
- 
-    {
-        id: '11',
-        title: 'Your plan is an agreement worked out with your',
-        title2: 'The Best Products That Shape Fashion',
-        subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack7',
-        screens: blogImg11,
-        link: 'READ MORE',
-        description: 'Business is the activity of making one s liv cing or buying and selling products',
-        author: 'Manik Doe',
-        create_at: '01-05-2025',
-        blogSingleImg: blogSingleImg7,
-        recent: recent3,
-        comment: '35',
-        day: '28',
-        month: 'MAR',
-        blClass: 'format-standard-image',
-        animation: '1200',
-    },
- 
-
-
 ];
+
 export default blogs;
 
 

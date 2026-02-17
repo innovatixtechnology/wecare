@@ -71,8 +71,8 @@ const BlogSectionS2 = (props) => {
                                         <li><i className="flaticon-calendar"></i>{bloge.create_at}</li>
                                         <li><i className="flaticon-chat"></i>2 Comments</li>
                                     </ul>
-                                    <h3><Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${bloge.slug}`}>{bloge.title}</Link></h3>
-                                    <Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${bloge.slug}`}>Read More <i className="flaticon-right-arrow"></i></Link>
+                                    <h3><Link onClick={ClickHandler} href={'/blog/[slug]'} as={`/blog/${bloge.slug}`}>{bloge.title}</Link></h3>
+                                    <Link onClick={ClickHandler} href={'/blog/[slug]'} as={`/blog/${bloge.slug}`}>Read More <i className="flaticon-right-arrow"></i></Link>
                                 </div>
                             </div>
                         ))}

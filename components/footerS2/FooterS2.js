@@ -40,12 +40,14 @@ const FooterS2 = () => {
                                 <div className="widget-title">
                                     <h3>Address</h3>
                                 </div>
-                                <p>570 8th Ave, New York,NY 10018
-                                    United States</p>
+                                <p>WE CARE NGO, <br />
+Manik Sarkar, T.N. Singh Lane<br />
+Bengali Tola, Bhagalpur, Bihar – 812001
+</p>
                                 <h4>Opening Hours</h4>
                                 <ul>
-                                    <li>9.30am – 6.30pm</li>
-                                    <li>Monday to Friday</li>
+                                    <li>9.00am – 6.00pm</li>
+                                    <li>Monday to Sunday</li>
                                 </ul>
                             </div>
                         </div>
@@ -69,9 +71,10 @@ const FooterS2 = () => {
                                 <ul>
                                     <li><Link onClick={ClickHandler} href="/">Home</Link></li>
                                     <li><Link onClick={ClickHandler} href="/about">about us</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/service">service</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/blog">blog</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/contact">contact us</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/service">Our Work</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/events">Events</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/team">Our Team</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/contact">Contact Us</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -109,7 +112,7 @@ const FooterS2 = () => {
                             </div>
                         </div>
                         <div className="col col-lg-6 col-12">
-                            <p className="copyright"> &copy; 2025 <Link onClick={ClickHandler} href="/">wpOcean</Link> - Non Profit.
+                            <p className="copyright"> &copy; 2026 <Link onClick={ClickHandler} href="/">wecare</Link>
                                 All
                                 rights reserved.</p>
                         </div>
@@ -125,15 +128,6 @@ const FooterS2 = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="shape">
-                <Image src={shape1} alt="" />
-            </div>
-            <div className="shape2">
-                <Image src={shape2} alt="" />
-            </div>
-            <div className="shape3">
-                <Image src={shape3} alt="" />
             </div>
         </footer>
     );

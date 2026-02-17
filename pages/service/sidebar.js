@@ -9,13 +9,15 @@ const ServiceSidebar = (props) => {
         window.scrollTo(10, 0);
     }
 
+    const filteredIndex = Services.findIndex((service) => service.slug === props.activeSlug) + 1;
+
     return (
         <div className="service-sidebar">
             <div className="service-catagory">
                 <ul>
-                    {Services.slice(0, 5).map((serves, index) => (
+                    {Services.slice(filteredIndex, filteredIndex + 5).map((serves, index) => (
                         <li key={index}>
-                            <Link href={'/service-single/[slug]'} as={`/service-single/${serves.slug}`}  onClick={ClickHandler}>{serves.title} <i
+                            <Link href={'/service/[slug]'} as={`/service/${serves.slug}`} onClick={ClickHandler}>{serves.title} <i
                                 className="flaticon-right-arrow-1"></i></Link>
                         </li>
                     ))}
