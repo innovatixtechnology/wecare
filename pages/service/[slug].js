@@ -51,7 +51,6 @@ const ServiceSinglePage = (props) => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-12 order-lg-1">
-                            <ServiceSidebar activeSlug={serviceDetails?.slug} />
                         </div>
                     </div>
                 </div>

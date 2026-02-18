@@ -59,11 +59,9 @@ Bengali Tola, Bhagalpur, Bihar – 812001
                         <div className="col-lg-6 col-12">
                             <div className="contact-left">
                                 <h2>Get in touch</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mattis
-                                    faucibus odio feugiat arc dolor.</p>
                                 <div className="map">
                                     <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.423237038043!2d86.98180560000002!3d25.256344200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f035142fbe7bbd%3A0x76d4c34a1b373f50!2sWe%20Care!5e0!3m2!1sen!2sin!4v1771439455317!5m2!1sen!2sin"
                                         ></iframe>
                                 </div>
                             </div>
@@ -86,3 +84,4 @@ Bengali Tola, Bhagalpur, Bihar – 812001
 }
 
 export default Contactpage;
+// https://maps.app.goo.gl/V4tojabiueYavhaJ8
