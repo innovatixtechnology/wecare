@@ -61,7 +61,7 @@ const BlogSectionS2 = (props) => {
                 </div>
                 <div className="blog-slider">
                     <Slider {...settings}>
-                        {blogs.slice(3,7).map((bloge, bkye) => (
+                        {blogs.map((bloge, bkye) => (
                             <div className="blog-card-s2" key={bkye}>
                                 <div className="image">
                                     <Image src={bloge.screens} alt="" />

@@ -345,9 +345,11 @@
             line-height: 28.8px;
             // max-width: 626px;
         }
-
-
-
+        h4 {
+            h2 {
+                margin-top: 16px;
+            }
+        }
     }
 
     .shape-1 {
@@ -411,10 +413,12 @@
     }
 
     .tabcontent {
+        p {
+            margin-top: 40px;
+        }
         .tab-wrap {
             display: flex;
             align-items: center;
-            margin-top: 30px;
 
             @media (max-width:575px) {
                 flex-direction: column;
@@ -1221,6 +1225,14 @@
             margin: 15px;
             transition: all .3s ease-in-out;
 
+            .subheading {
+                line-clamp: 2;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+
             @media (max-width:1399px) {
                 padding: 40px 20px;
             }
@@ -1642,7 +1654,7 @@
 
         .cssProgress-label {
             position: absolute;
-            right: 49%;
+            left: 0;
             top: -27px;
             color: $theme-primary-color;
             font-family: $heading-font;

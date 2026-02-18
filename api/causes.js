@@ -49,10 +49,10 @@ const causes = [
   },
   {
     id: '3',
-    title: 'Food & Essential Support',
-    subtitle: 'Dignity Through Basic Needs',
+    title: 'Food Support for Those in Need',
+    subtitle: 'Food Support for Those in Need',
     docomunt:
-      'We distribute food, groceries, and daily necessities to families and individuals facing hardship.',
+      'We provide nutritious meals and daily essentials to families and individuals facing hunger, ensuring dignity, care, and timely support.',
     slug: 'food-essential-support',
     Cimg: Cimg3,
     CSimg: Csing3,
@@ -66,7 +66,7 @@ const causes = [
   },
   {
     id: '4',
-    title: 'Flood & Emergency Relief',
+    title: 'Flood & Emergency Relief Support',
     subtitle: 'Standing Strong in Times of Crisis',
     docomunt:
       'We support communities affected by floods and emergencies by delivering timely relief, essential supplies, and rehabilitation assistance.',

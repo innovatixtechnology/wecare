@@ -48,7 +48,7 @@ const testimonials = [
         img: Img1,
         Des: "We Care’s commitment to addressing community needs through education and relief work is inspiring. Their leadership continues to touch countless lives.",
         title: 'Dr. Anupma Dubey',
-        sub: 'Assistant Professor, New Horizon College of Education',
+        sub: 'Professor, New Horizon College of Education',
     },
     {
         id: '07',

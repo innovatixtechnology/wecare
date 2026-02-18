@@ -17,7 +17,7 @@ const TeamSection = (props) => {
                     <div className="col-lg-6 col-12">
                         <div className="section-title text-center">
                             <span>You Can Help The Poor With Us</span>
-                            <h2>Meat the Team <span>member</span></h2>
+                            <h2>Our Founders & Co-Founders</h2>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const TeamSection = (props) => {
                     }
                 </div>
                 <div className="all-btn">
-                    <Link onClick={ClickHandler} href="/volunteer-1" className="theme-btn">All Volunteer</Link>
+                    <Link onClick={ClickHandler} href="/volunteer-1" className="theme-btn">All Volunteer / Members</Link>
                 </div>
             </div>
         </section>

@@ -26,7 +26,7 @@ const ServicePage = () => {
             <ServiceSection3 hclass={'service-section-s3 section-padding '} />
             <ProjectSectionS2 hclass={'project-section-s2 section-padding'} />
             <Testimonial2 tClass={'testimonial-section-s2 section-padding'} />
-            <InstagamSectionS2 hclass={'instagam-section-s2 section-padding'} />
+            {/* <InstagamSectionS2 hclass={'instagam-section-s2 section-padding'} /> */}
             <CtaSectionS2 />
             <PartnerSectionS2 />
             <BlogSectionS2 tClass={'blog-section-s2'} />

@@ -17,8 +17,8 @@ const DonateSection = () => {
             <div className="container">
                 <div className="donation-from">
                     <div className="text">
-                        <h2>We are always open for children</h2>
-                        <h3>Support for eating funds for hungry people</h3>
+                        <h2>Let’s Be Better Humans !</h2>
+                        <h3>Support Our Ongoing Initiatives & Events</h3>
                     </div>
                     <div className="Support">
                         <span>Donate Now <span>24/7</span> Support</span>
@@ -26,35 +26,35 @@ const DonateSection = () => {
                     <div className="progress-wrap">
                         <ul>
                             <li>
-                                <span>$7,560.00</span>
+                                <span>₹15,000.00</span>
                                 <span className="title">Raised</span>
                             </li>
                             <li>
-                                <span>$10,000.00</span>
+                                <span>₹10,000,00.00</span>
                                 <span className="title">Goal</span>
                             </li>
                         </ul>
                         <div className="progress-item">
                             <div className="progress">
-                                <div className="bar" style={{ width: '50%' }}></div>
+                                <div className="bar" style={{ width: '15%' }}></div>
                             </div>
-                            <span className="cssProgress-label">50%</span>
+                            <span className="cssProgress-label" style={{ left: "14%" }}>15%</span>
                         </div>
                     </div>
                     <div className="donate-amount">
                         {[100, 200, 300, 400, 600].map(amount => (
                             <button
                                 key={amount}
-                                className={`amount-btn ${selectedAmount === `$${amount}` ? 'active' : ''}`}
-                                onClick={() => handleAmountClick(`$${amount}`)}
+                                className={`amount-btn ${selectedAmount === `₹${amount}` ? 'active' : ''}`}
+                                onClick={() => handleAmountClick(`₹${amount}`)}
                             >
-                                ${amount}
+                                ₹{amount}
                             </button>
                         ))}
                         <input
                             type="text"
                             className="addAmount-value"
-                            placeholder="$Custom"
+                            placeholder="₹Custom"
                             value={selectedAmount}
                             onChange={(e) => setSelectedAmount(e.target.value)} 
                         />

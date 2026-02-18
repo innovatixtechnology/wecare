@@ -69,11 +69,11 @@ const ServiceSection = (props) => {
                   ) : null)}
                 </ul>
                 <div className="s-more">
-                 {highlightedEvents.length === Services.length ? <Link onClick={handleLess} href="/service">
+                 {highlightedEvents.length === Services.length ? <button onClick={handleLess}>
                     View Less
-                  </Link> : <Link onClick={ClickHandler} href="/service">
+                  </button> : <button onClick={ClickHandler}>
                     View More
-                  </Link>}
+                  </button>}
                 </div>
                 <div className="shape">
                   <svg width="58" height="59" viewBox="0 0 58 59" fill="none">

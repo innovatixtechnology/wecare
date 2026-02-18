@@ -12,7 +12,7 @@ const FunFactS2 = (props) => {
                         <div className="col col-lg-3 col-md-6 col-12">
                             <div className="item">
                                 {/* <i className="flaticon-pawprint"></i> */}
-                                <h2><CountUp end={500} enableScrollSpy /> +</h2>
+                                <h2><CountUp end={500} enableScrollSpy />+</h2>
                                 <p>Blood Units Collected Annually</p>
                             </div>
                         </div>

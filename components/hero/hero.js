@@ -43,18 +43,6 @@ const Hero = (props) => {
                                         <span> Life, </span> Change The <span className="text">world </span>
                                     </h2>
                                 </div>
-                                <div data-swiper-parallax="500" className="slide-btns">
-                                    <Link onClick={ClickHandler} href="/about" className="theme-btn">About Us</Link>
-                                    <div className="call">
-                                        <div className="icon">
-                                            <i className="flaticon-phone"></i>
-                                        </div>
-                                        <div className="text">
-                                            <h3>Call Us Now</h3>
-                                            <span>+91 9006955211</span>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div className="bg-shape">

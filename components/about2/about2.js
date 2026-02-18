@@ -1,49 +1,30 @@
-import React, { useState } from 'react';
-import VideoModal from '../ModalVideo/VideoModal';
-import CountUp from 'react-countup';
-import About1 from '/public/images/about/about-3.jpg';
-import About2 from '/public/images/about/about-4.jpg';
-import About3 from '/public/images/about/about-5.jpg';
-import About4 from '/public/images/about/about-6.jpg';
-import About5 from '/public/images/about/about-7.jpg';
-import Aut1 from '/public/images/about/aut-1.jpg';
-import Aut2 from '/public/images/about/aut-2.jpg';
-import Aut3 from '/public/images/about/aut-3.jpg';
-import Shape1 from '/public/images/about/shape4.svg';
-import Shape2 from '/public/images/about/shape11.svg';
-import Shape3 from '/public/images/healthcare.svg';
-import Shape4 from '/public/images/about/shape10.svg';
-import Shape5 from '/public/images/about/call.svg';
-import Shape6 from '/public/images/about/shape7.svg';
-import Shape7 from '/public/images/about/shape2.svg';
-import Shape8 from '/public/images/about/shape8.svg';
-import Image from 'next/image';
+import { useState } from 'react';
 
 const data = [
-  {
-    "title": "Pioneering Blood Donation",
-    "description": "Blood donation is where WE CARE started. Their blood drives save lives and bring hope to many in Bhagalpur. Each donation strengthens the community and proves WE CARE's dedication to health and well-being."
-  },
-  {
-    "title": "A Holistic Approach",
-    "description": "WE CARE doesn't just focus on blood donation. They tackle many issues to help the community. From environmental conservation to education, disaster relief to community involvement, WE CARE works tirelessly to address various challenges."
-  },
-  {
-    "title": "Greening Our City",
-    "description": "Environmental conservation is a key part of WE CARE's mission. They organize regular tree planting events to beautify Bhagalpur and fight climate change. These efforts have transformed barren areas into green spaces, improving the city's landscape."
-  },
-  {
-    "title": "Empowering Through Education",
-    "description": "WE CARE believes education is crucial for a better future. They provide teaching programs and educational workshops to ensure everyone has access to quality education."
-  },
-  {
-    "title": "Standing Tall in Times of Crisis",
-    "description": "During crises like the COVID-19 pandemic, WE CARE is a beacon of hope. They provided essential supplies and sanitized public areas, showing the power of compassion in difficult times."
-  },
-  {
-    "title": "A Promise for Tomorrow",
-    "description": "WE CARE officially registered on July 5th, 2020. They are committed to expanding their reach and deepening their impact every day. Their mission is to spread kindness and compassion far and wide."
-  }
+    {
+        "title": "Pioneering Blood Donation",
+        "description": "Blood donation is where WE CARE started. Their blood drives save lives and bring hope to many in Bhagalpur. Each donation strengthens the community and proves WE CARE's dedication to health and well-being."
+    },
+    {
+        "title": "A Holistic Approach",
+        "description": "WE CARE doesn't just focus on blood donation. They tackle many issues to help the community. From environmental conservation to education, disaster relief to community involvement, WE CARE works tirelessly to address various challenges."
+    },
+    {
+        "title": "Greening Our City",
+        "description": "Environmental conservation is a key part of WE CARE's mission. They organize regular tree planting events to beautify Bhagalpur and fight climate change. These efforts have transformed barren areas into green spaces, improving the city's landscape."
+    },
+    {
+        "title": "Empowering Through Education",
+        "description": "WE CARE believes education is crucial for a better future. They provide teaching programs and educational workshops to ensure everyone has access to quality education."
+    },
+    {
+        "title": "Standing Tall in Times of Crisis",
+        "description": "During crises like the COVID-19 pandemic, WE CARE is a beacon of hope. They provided essential supplies and sanitized public areas, showing the power of compassion in difficult times."
+    },
+    {
+        "title": "A Promise for Tomorrow",
+        "description": "WE CARE officially registered on July 5th, 2020. They are committed to expanding their reach and deepening their impact every day. Their mission is to spread kindness and compassion far and wide."
+    }
 ]
 
 
@@ -82,15 +63,18 @@ const AboutS2 = (props) => {
                             <p>In the bustling city of Bhagalpur, amidst the daily hustle and bustle, three friends Nitesh, Kush & Yash found solace in the act of giving. Their journey began with a simple yet profound realization: the power of blood donation to save lives. Fuelled by compassion and a desire to make a tangible difference, they embarked on a mission to organize a blood donation camp. With their core group of friend- Manish, Goutam, Lav, Sakshi, Suraj, Abhijit, Rishant and Rishu by their side, they set out to turn their vision into reality.</p>
                             <p>
                                 On a fateful day, June 24th, their aspirations took flight as 52 generous souls stepped forward to donate blood at their inaugural camp. This monumental event marked the birth of WE CARE-
-a beacon of hope, compassion, and selflessness in the heart of Bhagalpur. From that moment on, there was no turning back. WE CARE became synonymous with altruism, found a path of service and dedication that would leave an indelible mark on the community.
+                                a beacon of hope, compassion, and selflessness in the heart of Bhagalpur. From that moment on, there was no turning back. WE CARE became synonymous with altruism, found a path of service and dedication that would leave an indelible mark on the community.
                             </p>
 
                             <h4 className=''>
                                 A Legacy of Compassion: <h2>WE CARE's Journey</h2>
                             </h4>
-                            <p>WE CARE began as a small initiative and has grown into a powerful movement. This organization focuses on helping those in need through acts of kindness. It shows how unity and collective action can make a big difference in people's lives.</p>
+
+                            <p>
+                                WE CARE began as a small initiative and has grown into a powerful movement. This organization focuses on helping those in need through acts of kindness. It shows how unity and collective action can make a big difference in people's lives.
+                            </p>
                             {
-                                data.map((item)=>(
+                                data.map((item) => (
                                     <div key={item.title}>
                                         <h4>{item.title}</h4>
                                         <p>{item.description}</p>
@@ -114,19 +98,19 @@ a beacon of hope, compassion, and selflessness in the heart of Bhagalpur. From t
                                         WE CARE is committed to forging positive change in Bhagalpur through comprehensive initiatives in health, education, environment, and social welfare. Our mission is to uplift the underprivileged, protect our environment, and foster community solidarity through:
                                     </p>
                                     <div className="tab-wrap">
-                                            <ul>
-                                                <li><i className="flaticon-check"></i> Organizing regular blood donation camps to ensure lifesaving blood supplies are readily available.
+                                        <ul>
+                                            <li><i className="flaticon-check"></i> Organizing regular blood donation camps to ensure lifesaving blood supplies are readily available.
 
-                                                </li>
-                                                <li><i className="flaticon-check"></i>Providing educational support to children in slum areas, empowering them with knowledge and skills for a brighter future.
+                                            </li>
+                                            <li><i className="flaticon-check"></i>Providing educational support to children in slum areas, empowering them with knowledge and skills for a brighter future.
 
-                                                </li>
-                                                <li><i className="flaticon-check"></i>Leading environmental conservation efforts through tree plantation drives and sustainable practices to create healthier living environments.
-</li>
-                                                <li><i className="flaticon-check"></i>Promoting inclusive celebrations and empowering women through education and skill development.
+                                            </li>
+                                            <li><i className="flaticon-check"></i>Leading environmental conservation efforts through tree plantation drives and sustainable practices to create healthier living environments.
+                                            </li>
+                                            <li><i className="flaticon-check"></i>Promoting inclusive celebrations and empowering women through education and skill development.
 
-</li>
-                                            </ul>
+                                            </li>
+                                        </ul>
                                     </div>
                                     <p>
                                         At WE CARE, we believe in the power of compassion and collective effort to forge lasting change. Join us in our mission to build a more equitable and compassionate world for all.
