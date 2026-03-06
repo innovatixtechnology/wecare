@@ -5,13 +5,13 @@ import HeaderTopbar from '../HeaderTopbar/HeaderTopbar';
 import Midbar from '../Midbar/Midbar';
 import Image from 'next/image';
 
-const NAV_ITEMS = [
+export const NAV_ITEMS = [
     {
         title: "Home",
         href: "/",
         items: []
     },
-        {
+    {
         title: "About",
         href: "/about",
         items: []
@@ -65,12 +65,12 @@ const Header = (props) => {
                             <div className="col-lg-0 col-md-6 col-6">
                                 <div className="navbar-header">
                                     <Link onClick={ClickHandler} className="navbar-brand" href="/home">
-                                    <Image
-                                     src={'/images/logo.webp'}
-                                     width={100}
-                                     height={100}
-                                        alt="We Care logo" />
-                                        </Link>
+                                        <Image
+                                            src={'/images/logo.webp'}
+                                            width={100}
+                                            height={100}
+                                            alt="We Care logo" />
+                                    </Link>
                                 </div>
                             </div>
                             <div className="col-lg-7 col-md-1 col-1">
@@ -78,17 +78,17 @@ const Header = (props) => {
                                     <button className="menu-close"><i className="ti-close"></i></button>
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                                         {
-                                            NAV_ITEMS.map((nav)=>(
-                                        <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href={nav.href ?? '#' }>{nav.title}</Link>
-                                            {nav.items?.length  ?<ul className="sub-menu">
-                                                {
-                                                    nav?.items?.map((sub)=>(
-                                                        <li><Link onClick={ClickHandler} href={sub.href ?? '#' }>{sub.title}</Link></li>
-                                                    ))
-                                                }
-                                            </ul>: null}
-                                        </li>
+                                            NAV_ITEMS.map((nav) => (
+                                                <li className="menu-item-has-children">
+                                                    <Link onClick={ClickHandler} href={nav.href ?? '#'}>{nav.title}</Link>
+                                                    {nav.items?.length ? <ul className="sub-menu">
+                                                        {
+                                                            nav?.items?.map((sub) => (
+                                                                <li><Link onClick={ClickHandler} href={sub.href ?? '#'}>{sub.title}</Link></li>
+                                                            ))
+                                                        }
+                                                    </ul> : null}
+                                                </li>
                                             ))
                                         }
                                     </ul>

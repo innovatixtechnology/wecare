@@ -96,10 +96,6 @@ const CausesSection = (props) => {
                                         <span className="title">Raised:</span>
                                         <span>₹{causesData.raised}</span>
                                     </li>
-                                    <li>
-                                        <span className="title">Goal:</span>
-                                        <span>₹{causesData.targetGoal}</span>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -109,7 +105,7 @@ const CausesSection = (props) => {
             {/* <div className="shape">
                 <Image src={shape} alt="" />
             </div> */}
-            <div className="shape-2">            
+            <div className="shape-2">
                 <Image src={shape2} alt="" />
             </div>
         </section>
