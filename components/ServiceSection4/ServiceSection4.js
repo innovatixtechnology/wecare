@@ -48,7 +48,7 @@ const ServiceSection4 = (props) => {
         ]
     };
     return (
-        <section className={"" +props.hclass}>
+        <section className={"" + props.hclass}>
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-12">
@@ -71,10 +71,10 @@ const ServiceSection4 = (props) => {
                             <Image src={service.image} alt="" />
                         </div>
                         <div className="content">
-                            <h2><Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${service.slug}`}>{service.title}</Link></h2>
+                            <h2><Link onClick={ClickHandler} href={'/service/[slug]'} as={`/service/${service.slug}`}>{service.title}</Link></h2>
                             <p>{service.description}</p>
                             <div className="services-btn">
-                                <Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${service.slug}`}>See Details </Link>
+                                <Link onClick={ClickHandler} href={'/service/[slug]'} as={`/service/${service.slug}`}>See Details </Link>
                             </div>
                         </div>
                     </div>

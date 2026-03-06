@@ -23,7 +23,7 @@ const TeamSection = (props) => {
                 </div>
                 <div className="row">
                     {
-                        Teams.slice(0, 4).map((team, titem) => (
+                        Teams.slice(0, 8).map((team, titem) => (
                             <div className="col-lg-3 col-md-6 col-12" key={titem}>
                                 <div className="vol-card">
                                     <div className="image">
