@@ -14,26 +14,15 @@ const ServiceSidebar = (props) => {
     return (
         <div className="service-sidebar">
             <div className="service-catagory">
-                <ul>
-                    {Services.slice(filteredIndex, filteredIndex + 5).map((serves, index) => (
+                <ul className="service-sidebar-list">
+                    {Services.map((serves, index) => (
                         <li key={index}>
-                            <Link href={'/service/[slug]'} as={`/service/${serves.slug}`} onClick={ClickHandler}>{serves.title} <i
-                                className="flaticon-right-arrow-1"></i></Link>
+                            <Link href={'/service/[slug]'} className={serves.slug === props.activeSlug ? 'active' : ''} as={`/service/${serves.slug}`} onClick={ClickHandler}>
+                                {serves.title}
+                            </Link>
                         </li>
                     ))}
                 </ul>
-            </div>
-            <div className="service-info">
-                <div className="icon">
-                    <i className="flaticon-phone-call"></i>
-                </div>
-                <h2>Looking for
-                    logistics service
-                    Provider?</h2>
-                <span>Call anytime</span>
-                <div className="num">
-                    <span>+(2) 871 382 023</span>
-                </div>
             </div>
         </div>
     )
