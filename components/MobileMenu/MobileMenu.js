@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from 'react';
-import List from "@mui/material/List";
-import ListItem from "@mui/material/List";
+
 import Collapse from "@mui/material/Collapse";
 import Link from "next/link";
 
@@ -16,7 +15,7 @@ const MobileMenu = () => {
     }
 
     return (
-        <div>
+        <div className="mobileMenu-wrapper">
             <div className={`mobileMenu ${menuActive ? "show" : ""}`}>
                 <div className="menu-close">
                     <div className="clox" onClick={() => setMenuState(!menuActive)}><i className="ti-close"></i></div>
@@ -25,31 +24,31 @@ const MobileMenu = () => {
                 <ul className="responsivemenu">
                     {NAV_ITEMS.map((item, mn) => {
                         return (
-                            <ListItem className={item.id === openId ? 'active' : null} key={mn}>
+                            <li className={item.id === openId ? 'active' : null} key={mn}>
                                 {item.items && item.items.length > 0 ?
                                     <Fragment>
                                         <p onClick={() => setOpenId(item.id === openId ? 0 : item.id)}>{item.title}
                                             <i className={item.id === openId ? 'fa fa-angle-up' : 'fa fa-angle-down'}></i>
                                         </p>
                                         <Collapse in={item.id === openId} timeout="auto" unmountOnExit>
-                                            <List className="subMenu">
+                                            <ul className="subMenu">
                                                 <Fragment>
                                                     {item.items.map((submenu, i) => {
                                                         return (
-                                                            <ListItem key={i}>
+                                                            <li key={i}>
                                                                 <Link onClick={ClickHandler} className="active"
                                                                     href={submenu.href || '#'}>{submenu.title}</Link>
-                                                            </ListItem>
+                                                            </li>
                                                         )
                                                     })}
                                                 </Fragment>
-                                            </List>
+                                            </ul>
                                         </Collapse>
                                     </Fragment>
                                     : <Link onClick={ClickHandler} className="active"
                                         href={item.href || '#'}>{item.title}</Link>
                                 }
-                            </ListItem>
+                            </li>
                         )
                     })}
                 </ul>

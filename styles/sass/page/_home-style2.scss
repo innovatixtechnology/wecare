@@ -345,6 +345,7 @@
             line-height: 28.8px;
             // max-width: 626px;
         }
+
         h4 {
             h2 {
                 margin-top: 16px;
@@ -416,6 +417,7 @@
         p {
             margin-top: 40px;
         }
+
         .tab-wrap {
             display: flex;
             align-items: center;
@@ -1775,6 +1777,47 @@
 
         @media (max-width:767px) {
             padding-bottom: 50px;
+        }
+    }
+}
+
+.team-slider-wrapper {
+    margin-top: 30px;
+
+    .slick-track {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .slick-slide {
+        padding: 0 15px;
+    }
+
+    .slick-dots {
+        text-align: center;
+        margin-top: 20px;
+
+        li {
+            display: inline-block;
+            margin: 0 5px;
+
+            button {
+                font-size: 0;
+                width: 12px;
+                height: 12px;
+                background: #d8d8d8;
+                border-radius: 50%;
+                border: none;
+                padding: 0;
+
+                &::before {
+                    display: none;
+                }
+            }
+
+            &.slick-active button {
+                background: #ff5a00;
+            }
         }
     }
 }

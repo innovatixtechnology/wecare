@@ -28,7 +28,10 @@ const ServiceSinglePage = (props) => {
             <section className="service-single-page section-padding">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8 col-12 order-lg-2">
+                        <div className="col-lg-4 col-12 order-2 order-lg-1">
+                            <ServiceSidebar activeSlug={router.query.slug} />
+                        </div>
+                        <div className="col-lg-8 col-12 order-1 order-lg-2">
                             <div className="service-single-wrap">
                                 <div className="title-image">
                                     <Image src={serviceDetails?.simage} alt="" />
@@ -50,8 +53,7 @@ const ServiceSinglePage = (props) => {
                                 }
                             </div>
                         </div>
-                        <div className="col-lg-4 col-12 order-lg-1">
-                        </div>
+
                     </div>
                 </div>
             </section>
