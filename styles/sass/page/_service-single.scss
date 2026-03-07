@@ -2,7 +2,88 @@
 
 .service-single-page {}
 
-.service-single-wrap,.case-details-left {
+/* Layout ordering for desktop and mobile */
+.service-detail-row {
+    @media (max-width: 991px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.service-content-col {
+    @media (max-width: 991px) {
+        order: 1;
+        /* Content shows first on mobile */
+    }
+}
+
+.service-left-col {
+    @media (max-width: 991px) {
+        display: flex;
+        flex-direction: column;
+        order: 3;
+        padding-top: 40px;
+    }
+
+    .service-sidebar-col {
+        @media (max-width: 991px) {
+            order: 2;
+            /* Sidebar links at the bottom on mobile */
+        }
+    }
+
+    .service-slider-col {
+        margin-top: 30px;
+
+        @media (max-width: 991px) {
+            order: 1;
+            /* Image slider on top of links on mobile */
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        &+.service-slider-col {
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Sidebar Image Slider */
+.sidebar-image-slider {
+    background: #f4efea;
+    border-radius: 10px;
+    padding: 25px;
+    /* Increased padding */
+
+    @media (max-width: 991px) {
+        padding: 30px 20px;
+        /* More vertical padding on mobile */
+    }
+
+    .sidebar-slide {
+        img {
+            width: 100%;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+    }
+
+    .slick-dots {
+        bottom: -25px;
+
+        li button:before {
+            font-size: 8px;
+            color: #999;
+        }
+
+        li.slick-active button:before {
+            color: #ff5a00;
+        }
+    }
+}
+
+.service-single-wrap,
+.case-details-left {
 
     .title-image {
         margin-bottom: 30px;
@@ -37,6 +118,17 @@
         margin-bottom: 40px;
     }
 
+    .content-image-placeholder {
+        margin: 30px 0 40px;
+
+        img {
+            width: 100%;
+            max-width: 780px;
+            border-radius: 10px;
+            display: block;
+        }
+    }
+
     .video-wrap {
         display: flex;
         align-items: center;
@@ -55,7 +147,8 @@
 
     .video-btn {
         background: $white;
-        i{
+
+        i {
             color: $theme-primary-color;
         }
     }
