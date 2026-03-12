@@ -4,4 +4,3 @@ All text and photo s link : https://www.canva.com/design/DAGIJHkDt60/KO-CETXlULO
 wetrafer llink : https://we.tl/t-rf1HXqmbdp new template
 
 https://drive.google.com/file/d/1CELpA7DG3t9rIJ1AsQUjMGpIqnLwzauL/view?usp=sharing - drive link
-
