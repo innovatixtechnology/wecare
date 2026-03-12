@@ -29,7 +29,7 @@ const Hero = (props) => {
                 navigation
             >
                 <SwiperSlide>
-                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/Hero-1.svg'})` }}>
+                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/hero-1.svg'})` }}>
                         <div className="container-fluid">
                             <div className="slide-content">
                                 <div className="slide-title">
@@ -54,7 +54,7 @@ const Hero = (props) => {
                     </div>
                 </SwiperSlide>
                                 <SwiperSlide>
-                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/Hero-2.svg'})` }}>
+                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/hero-2.svg'})` }}>
                         <div className="container-fluid">
                             <div className="slide-content">
                                 <div className="slide-title">

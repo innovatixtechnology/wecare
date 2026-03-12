@@ -46,7 +46,6 @@ const ProjectSectionS2 = (props) => {
                 <div className="row justify-content-center">
                     <div className="col-lg-6 col-12">
                         <div className="section-title text-center">
-                            <span>We are always open for children</span>
                             <h2>our case study about <span>helping</span> people</h2>
                         </div>
                     </div>
