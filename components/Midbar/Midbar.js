@@ -31,7 +31,11 @@ const Midbar = () => {
                                 </div>
                                 <div className="text">
                                     <h3>Our Address</h3>
-                                    <span>Manik Sarkar, Bhagalpur</span>
+                                    <span>Manik Sarkar, </span>
+                                    <br />
+                                    <span>T.N. Singh Lane Bengali Tola,</span>
+                                    <br />
+                                    <span>Bhagalpur, Bihar – 812001</span>
                                 </div>
                             </li>
                             <li>
@@ -40,7 +44,9 @@ const Midbar = () => {
                                 </div>
                                 <div className="text">
                                     <h3>Contact Us</h3>
-                                     <span>+91 9006955211</span>
+                                    <span>+91 9006955211</span>
+                                    <br />
+                                    <span>+91 9162410681</span>
                                 </div>
                             </li>
                         </ul>

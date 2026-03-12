@@ -11,7 +11,7 @@ const TeamPage = () => {
         <Fragment>
             <Navbar hclass={'wpo-site-header'} Logo={Logo} />
             <PageTitle pageTitle={'Our Team'} pagesub={'Team'} />
-            <TeamSection hclass={'volunteer-section section-padding'} />
+            <TeamSection hclass={'volunteer-section'} />
             <Footer />
             <Scrollbar />
         </Fragment>

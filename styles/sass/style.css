@@ -7612,7 +7612,7 @@ img {
   .about-section-s2 .right-content,
   .about-section-s3 .right-content,
   .about-section-s4 .right-content {
-    margin-top: 0;
+    /* margin-top: 0; */
   }
 }
 .about-section-s2 .right-content h2,

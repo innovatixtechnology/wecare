@@ -10,9 +10,6 @@ import shape4 from '/public/images/slider/shape-4.png'
 import Image from "next/image";
 
 
-
-
-
 const ClickHandler = () => {
     window.scrollTo(10, 0);
 }
@@ -32,7 +29,7 @@ const Hero = (props) => {
                 navigation
             >
                 <SwiperSlide>
-                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-1.jpg'})` }}>
+                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/Hero-1.svg'})` }}>
                         <div className="container-fluid">
                             <div className="slide-content">
                                 <div className="slide-title">
@@ -45,7 +42,7 @@ const Hero = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-shape">
+                        {/* <div className="bg-shape">
                             <Image src={shape1} alt="" />
                         </div>
                         <div className="shape-1">
@@ -53,11 +50,11 @@ const Hero = (props) => {
                         </div>
                         <div className="shape-3">
                             <Image src={shape4} alt="" />
-                        </div>
+                        </div> */}
                     </div>
                 </SwiperSlide>
                                 <SwiperSlide>
-                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-1.jpg'})` }}>
+                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/Hero-2.svg'})` }}>
                         <div className="container-fluid">
                             <div className="slide-content">
                                 <div className="slide-title">
@@ -82,7 +79,7 @@ const Hero = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-shape">
+                        {/* <div className="bg-shape">
                             <Image src={shape1} alt="" />
                         </div>
                         <div className="shape-1">
@@ -90,12 +87,12 @@ const Hero = (props) => {
                         </div>
                         <div className="shape-3">
                             <Image src={shape4} alt="" />
-                        </div>
+                        </div> */}
                     </div>
                 </SwiperSlide>
                
                 <SwiperSlide>
-                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-2.jpg'})` }}>
+                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/hero-3.svg'})` }}>
                         <div className="container-fluid">
                             <div className="slide-content">
                                 <div className="slide-title">
@@ -120,12 +117,12 @@ const Hero = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-shape">
+                        {/* <div className="bg-shape">
                             <Image src={shape1} alt="" />
                         </div>
                         <div className="shape-1">
                             <Image src={shape2} alt="" />
-                        </div>
+                        </div> */}
                     </div>
                 </SwiperSlide>
                

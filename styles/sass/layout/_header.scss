@@ -270,6 +270,10 @@
 		padding-bottom: 10px;
 	}
 
+	@media (max-width:991px) {
+		display: none;
+	}
+
 	.logo-mid {
 		max-width: 126px;
 		max-height: 46px;

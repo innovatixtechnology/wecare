@@ -9,13 +9,13 @@ const ServiceSidebar = (props) => {
         window.scrollTo(10, 0);
     }
 
-    const filteredIndex = Services.findIndex((service) => service.slug === props.activeSlug) + 1;
+    const filteredServices = Services.filter((service) => !['Become-a-volunteer', 'Donate-for-paathshala'].includes(service.slug));
 
     return (
         <div className="service-sidebar">
             <div className="service-catagory">
                 <ul className="service-sidebar-list">
-                    {Services.map((serves, index) => (
+                    {filteredServices.map((serves, index) => (
                         <li key={index}>
                             <Link href={'/service/[slug]'} className={serves.slug === props.activeSlug ? 'active' : ''} as={`/service/${serves.slug}`} onClick={ClickHandler}>
                                 {serves.title}

@@ -107,11 +107,11 @@ const Services = [
                 text: "On Independence Day and Republic Day, We Care gathers the children of Paathshala to honor the nation's heritage. Through flag hoisting ceremonies and patriotic songs, we instill a sense of pride and unity, nurturing future citizens with a spirit of service."
             },
             {
-                heasing: "Chhath Puja:",
+                heading: "Chhath Puja:",
                 text: "During Chhath Puja, We Care sets up stalls at the ghat, offering refreshing sarbat, comforting tea, and nourishing milk to devotees and visitors. These offerings symbolize our commitment to fostering community bonds and extending hospitality.",
             },
             {
-                heasing: "Conclusion: ",
+                heading: "Conclusion: ",
                 text: "We Care NGO exemplifies the transformative power of festive celebrations in nurturing compassion, solidarity, and inclusivity. In Bhagalpur's cultural landscape, our endeavors shine as beacons of hope, illuminating lives and weaving a tapestry of unity and joy."
             }
         ]
@@ -120,12 +120,26 @@ const Services = [
         id: '3',
         title: 'Festive Celebrations',
         subtitle: '',
-        subheading: 'Festive Celebrations',
+        subheading: 'Nestled in the heart of Bhagalpur, We Care NGO spreads warmth and compassion through a variety of festive celebrations. From the vibrant colors of Holi to the reverence of Chhath Puja, each event fosters a sense of community and inclusivity, making a lasting impact on those involved.',
         slug: 'Festive-Celebrations',
         eimg: eimg3,
         eSimg: esing3,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
+        data: [
+            {
+                heading: "Holi Celebrations with Paathshala Slum Children:",
+                text: "During Holi, We Care embraces the joy of the season with the children of the Paathshala Slum. Beyond exchanging colors and sweets, these celebrations highlight the enduring spirit of camaraderie and resilience."
+            },
+            {
+                heading: "Diwali Festivities: Bridging Gaps, Illuminating Hearts:",
+                text: "For Diwali, We Care reaches out to marginalized sections of society, including street vendors and rickshaw pullers. The NGO delivers joy and a sense of belonging, lighting up lives with hope and positivity."
+            },
+            {
+                heading: "Birthday and Anniversary Celebrations:",
+                text: "We Care ensures that birthdays and anniversaries of elderly residents in old age homes and children in orphanages are celebrated with love and laughter. These personalized events uplift spirits and foster dignity."
+            }
+        ],
     },
     {
         id: '4',
@@ -340,47 +354,25 @@ This summer, let’s be the reason someone survives the heat.
         data: [
             {
                 heading: "",
-                text: "At WE CARE, we believe that true celebration lies in sharing happiness with others—especially those who need it the most. That’s why every birthday, anniversary, and milestone becomes an opportunity for us to spread joy and love among underprivileged children."
+                text: "Under Project Jal Sanjeevani, we are placing water tubs and bowls in public places, residential areas, near shops, parks, and roadside corners — anywhere and everywhere that stray animals, birds, and other creatures can access."
             },
             {
-                heading: "",
-                text: "Rather than celebrating with grand gestures, we choose to celebrate with purpose. We organize small yet meaningful events where children are the center of attention. From decorating the space with balloons and streamers to cutting cakes, playing games, singing songs, and handing out thoughtful gifts—every detail is planned with care and love."
+                text: "This initiative is a humble effort to give back to nature. To care. To share. To protect lives — not just human lives, but every life."
             },
             {
-                heading: "",
-                text: "These moments may seem simple, but for the children we reach, they’re filled with magic. Many of them have never celebrated a birthday or had someone sing for them. Watching their eyes light up and hearing their laughter is a reward beyond words."
-            },
-            {
-                heading: "",
-                text: "For us, these celebrations are more than just events—they are acts of kindness that turn ordinary days into unforgettable ones. Each smile, hug, and thank-you from a child fuels our mission and reminds us why WE CARE exists."
-            },
-            {
-                heading: "",
-                text: "We invite individuals, families, and organizations to join us in this beautiful journey. Whether it's your birthday, anniversary, or a special day in your life—celebrate it by making a difference."
-            },
-            {
-                heading: "",
-                text: " Together, let’s turn special days into memorable stories of hope, happiness, and humanity."
-            },
-            {
-                heading: "",
-                text: "Because at WE CARE, every smile counts, and every heart matters. 💫"
-            },
-            {
-                text: "",
-                heading: "Nestled in the heart of Bhagalpur, We Care NGO spreads warmth and compassion through a variety of festive celebrations. From the vibrant colors of Holi to the reverence of Chhath Puja, each event fosters a sense of community and inclusivity, making a lasting impact on those involved."
-            },
-            {
-                text: "Holi Celebrations with Paathshala Slum Children:",
-                heading: "During Holi, We Care embraces the joy of the season with the children of the Paathshala Slum. Beyond exchanging colors and sweets, these celebrations highlight the enduring spirit of camaraderie and resilience."
-            },
-            {
-                text: "Diwali Festivities: Bridging Gaps, Illuminating Hearts:",
-                heading: "For Diwali, We Care reaches out to marginalized sections of society, including street vendors and rickshaw pullers. The NGO delivers joy and a sense of belonging, lighting up lives with hope and positivity."
-            },
-            {
-                text: "Birthday and Anniversary Celebrations:",
-                heading: "We Care ensures that birthdays and anniversaries of elderly residents in old age homes and children in orphanages are celebrated with love and laughter. These personalized events uplift spirits and foster dignity."
+                text: `
+🐾 How YOU can help:
+Keep a clean water bowl outside your home, building, office, or shop.
+Refill it regularly — especially during the hottest hours of the day.
+Use earthen pots or clay bowls to keep water cool and safe.
+Encourage your neighbors, friends, and community to do the same.
+
+🌎 Small actions. Big impact.
+This summer, let’s be the reason someone survives the heat.
+💧 Because water is life.
+ 💙 Because kindness has no species.
+👉 Join Project Jal Sanjeevani. Be a life-saver this summer. `
+
             }
         ]
     },
@@ -388,12 +380,32 @@ This summer, let’s be the reason someone survives the heat.
         id: '12',
         title: 'Special Day Celebration',
         subtitle: '',
-        subheading: 'Special Day Celebration',
+        subheading: 'At WE CARE, we believe that true celebration lies in sharing happiness with others—especially those who need it the most. That’s why every birthday, anniversary, and milestone becomes an opportunity for us to spread joy and love among underprivileged children.',
         slug: 'Special-Day-Celebration',
         eimg: eimg6,
         eSimg: esing6,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
+        data: [
+            {
+                text: "Rather than celebrating with grand gestures, we choose to celebrate with purpose. We organize small yet meaningful events where children are the center of attention. From decorating the space with balloons and streamers to cutting cakes, playing games, singing songs, and handing out thoughtful gifts—every detail is planned with care and love."
+            },
+            {
+                text: "These moments may seem simple, but for the children we reach, they’re filled with magic. Many of them have never celebrated a birthday or had someone sing for them. Watching their eyes light up and hearing their laughter is a reward beyond words."
+            },
+            {
+                text: "For us, these celebrations are more than just events—they are acts of kindness that turn ordinary days into unforgettable ones. Each smile, hug, and thank-you from a child fuels our mission and reminds us why WE CARE exists."
+            },
+            {
+                text: "We invite individuals, families, and organizations to join us in this beautiful journey. Whether it's your birthday, anniversary, or a special day in your life—celebrate it by making a difference."
+            },
+            {
+                text: " Together, let’s turn special days into memorable stories of hope, happiness, and humanity."
+            },
+            {
+                text: "Because at WE CARE, every smile counts, and every heart matters. 💫"
+            }
+        ]
     },
     {
         id: '13',
