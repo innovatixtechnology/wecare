@@ -12,6 +12,22 @@ import esing4 from '/public/images/events-single/1.jpg'
 import esing5 from '/public/images/events-single/3.jpg'
 import esing6 from '/public/images/events-single/2.jpg'
 
+// Real event photos
+import evBloodDonationCamp from '/public/images/events/blood-donation-camp.jpg';
+import evBloodDonationCampSingle from '/public/images/events/blood-donation-camp-single.jpg';
+import evBecomeVolunteer from '/public/images/events/become-a-volunteer.jpg';
+import evBecomeVolunteerSingle from '/public/images/events/become-a-volunteer-single.jpg';
+import evDonatePaathshala from '/public/images/events/donate-for-paathshala.jpg';
+import evDonatePaathshalaSingle from '/public/images/events/donate-for-paathshala-single.jpg';
+import evProjectPrakriti from '/public/images/events/project-prakriti.jpg';
+import evProjectPrakritiSingle from '/public/images/events/project-prakriti-single.jpg';
+import evPaathshala from '/public/images/events/paathshala.jpg';
+import evPaathshalaSingle from '/public/images/events/paathshala-single.jpg';
+import evBlankets from '/public/images/events/blankets-drive.jpg';
+import evBlanketsSingle from '/public/images/events/blankets-drive-single.jpg';
+import evMedanta from '/public/images/events/medanta-health-camp.jpg';
+import evMedantaSingle from '/public/images/events/medanta-health-camp-single.jpg';
+
 
 
 
@@ -23,8 +39,8 @@ const event = [
         subtitle: 'Blood Donation Camp',
         docomunt: 'Quis id at rhoncus consequat. Aliquam in. Velit phasellus augue tristique integer arcu. Elit sed vestibulum tristique suspendisse ut sit',
         slug: 'Blood-Donation-Camp',
-        eimg: eimg1,
-        eSimg: esing1,
+        eimg: evBloodDonationCamp,
+        eSimg: evBloodDonationCampSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
     },
@@ -34,8 +50,8 @@ const event = [
         subtitle: 'Help The Poor, You Will Feel Happy',
         docomunt: 'Quis id at rhoncus consequat. Aliquam in. Velit phasellus augue tristique integer arcu. Elit sed vestibulum tristique suspendisse ut sit',
         slug: 'Become-a-volunteer',
-        eimg: eimg1,
-        eSimg: esing1,
+        eimg: evBecomeVolunteer,
+        eSimg: evBecomeVolunteerSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
     },
@@ -45,8 +61,8 @@ const event = [
         subtitle: 'Help The Poor, You Will Feel Happy',
         docomunt: 'Quis id at rhoncus consequat. Aliquam in. Velit phasellus augue tristique integer arcu. Elit sed vestibulum tristique suspendisse ut sit',
         slug: 'Donate-for-paathshala',
-        eimg: eimg1,
-        eSimg: esing1,
+        eimg: evDonatePaathshala,
+        eSimg: evDonatePaathshalaSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
     },
@@ -78,8 +94,8 @@ const event = [
         subtitle: 'Help The Poor, You Will Feel Happy',
         docomunt: 'Quis id at rhoncus consequat. Aliquam in. Velit phasellus augue tristique integer arcu. Elit sed vestibulum tristique suspendisse ut sit',
         slug: 'Project-Prakriti',
-        eimg: eimg4,
-        eSimg: esing4,
+        eimg: evProjectPrakriti,
+        eSimg: evProjectPrakritiSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
     },
@@ -111,8 +127,8 @@ const event = [
         subtitle: 'Help The Poor, You Will Feel Happy',
         docomunt: 'Quis id at rhoncus consequat. Aliquam in. Velit phasellus augue tristique integer arcu. Elit sed vestibulum tristique suspendisse ut sit',
         slug: 'Paathshala',
-        eimg: eimg6,
-        eSimg: esing6,
+        eimg: evPaathshala,
+        eSimg: evPaathshalaSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
     },
@@ -122,8 +138,8 @@ const event = [
         subtitle: 'Help The Poor, You Will Feel Happy',
         docomunt: 'Quis id at rhoncus consequat. Aliquam in. Velit phasellus augue tristique integer arcu. Elit sed vestibulum tristique suspendisse ut sit',
         slug: 'Blankets-&-warm-Clothes-Distribution-Drive',
-        eimg: eimg6,
-        eSimg: esing6,
+        eimg: evBlankets,
+        eSimg: evBlanketsSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
     },
@@ -177,8 +193,8 @@ const event = [
         subtitle: 'Help The Poor, You Will Feel Happy',
         docomunt: 'Quis id at rhoncus consequat. Aliquam in. Velit phasellus augue tristique integer arcu. Elit sed vestibulum tristique suspendisse ut sit',
         slug: 'Medanta-Monthly-Health-camp',
-        eimg: eimg6,
-        eSimg: esing6,
+        eimg: evMedanta,
+        eSimg: evMedantaSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
     }

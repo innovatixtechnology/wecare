@@ -31,10 +31,10 @@ const ServiceSinglePage = (props) => {
                             </div>
                             <div className="service-slider-col d-none d-lg-block">
                                 <SidebarImageSlider images={[
-                                    { id: 1, src: 'https://placehold.co/392x273/e8e8e8/999?text=Impact+1+392X273', alt: 'Impact 1 392X273' },
-                                    { id: 2, src: 'https://placehold.co/392x273/e8e8e8/999?text=Impact+2+392X273', alt: 'Impact 2 392X273' },
-                                    { id: 3, src: 'https://placehold.co/392x273/e8e8e8/999?text=Impact+3+392X273', alt: 'Impact 3 392X273' },
-                                    { id: 4, src: 'https://placehold.co/392x273/e8e8e8/999?text=Impact+4+392X273', alt: 'Impact 4 392X273' },
+                                    { id: 1, src: '/images/gallery/5.jpg', alt: 'We Care impact photo 1' },
+                                    { id: 2, src: '/images/gallery/6.jpg', alt: 'We Care impact photo 2' },
+                                    { id: 3, src: '/images/gallery/7.jpg', alt: 'We Care impact photo 3' },
+                                    { id: 4, src: '/images/gallery/8.jpg', alt: 'We Care impact photo 4' },
                                 ]} />
                             </div>
                         </div>
