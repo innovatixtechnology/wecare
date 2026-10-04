@@ -4,10 +4,10 @@ import Slider from 'react-slick';
 const SidebarImageSlider = ({ images }) => {
 
     const defaultImages = [
-        { id: 1, src: 'https://placehold.co/392x273/e8e8e8/999?text=Gallery+1+392X273', alt: 'Gallery image 1 392X273' },
-        { id: 2, src: 'https://placehold.co/392x273/e8e8e8/999?text=Gallery+2+392X273', alt: 'Gallery image 2 392X273' },
-        { id: 3, src: 'https://placehold.co/392x273/e8e8e8/999?text=Gallery+3+392X273', alt: 'Gallery image 3 392X273' },
-        { id: 4, src: 'https://placehold.co/392x273/e8e8e8/999?text=Gallery+4+392X273', alt: 'Gallery image 4 392X273' },
+        { id: 1, src: '/images/gallery/1.jpg', alt: 'We Care event photo 1' },
+        { id: 2, src: '/images/gallery/2.jpg', alt: 'We Care event photo 2' },
+        { id: 3, src: '/images/gallery/3.jpg', alt: 'We Care event photo 3' },
+        { id: 4, src: '/images/gallery/4.jpg', alt: 'We Care event photo 4' },
     ];
 
     const sliderImages = images || defaultImages;

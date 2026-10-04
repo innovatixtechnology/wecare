@@ -6,7 +6,8 @@ import FunFactS2 from '../../components/FunFactS2/FunFactS2';
 import ServiceSection4 from '../../components/ServiceSection4/ServiceSection4';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import DonateSection from '../../components/DonateSection/DonateSection';
-import TeamSection from '../../components/TeamSection/TeamSection';
+import LeadershipSection from '../../components/LeadershipSection/LeadershipSection';
+import { Founders, CoFounders, Trustees } from '../../api/leadership';
 import ProjectSectionS2 from '../../components/ProjectSectionS2/ProjectSectionS2';
 import Testimonial2 from '../../components/Testimonial2/Testimonial2';
 import PartnerSectionS3 from '../../components/PartnerSectionS3/PartnerSectionS3';
@@ -26,7 +27,9 @@ const AboutPage = () => {
             <ServiceSection4 hclass={"service-section-s5"} />
             <CtaSection hclass={'cta-section'} />
             <DonateSection />
-            <TeamSection hclass={'volunteer-section section-padding'} />
+            <LeadershipSection hclass={'leadership-section leadership-first'} sectionTitle={'Founders'} members={Founders} />
+            <LeadershipSection hclass={'leadership-section'} sectionTitle={'Co-Founders'} members={CoFounders} />
+            <LeadershipSection hclass={'leadership-section leadership-last'} sectionTitle={'Trustee'} members={Trustees} />
             <ProjectSectionS2 hclass={'project-section-s2 section-padding'} />
             <Testimonial2 tClass={'testimonial-section-s2 section-padding'} />
             <PartnerSectionS3 />

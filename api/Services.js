@@ -12,6 +12,22 @@ import esing4 from '/public/images/events-single/1.jpg'
 import esing5 from '/public/images/events-single/3.jpg'
 import esing6 from '/public/images/events-single/2.jpg'
 
+// Real event photos
+import evBloodDonationCamp from '/public/images/events/blood-donation-camp.jpg';
+import evBloodDonationCampSingle from '/public/images/events/blood-donation-camp-single.jpg';
+import evBecomeVolunteer from '/public/images/events/become-a-volunteer.jpg';
+import evBecomeVolunteerSingle from '/public/images/events/become-a-volunteer-single.jpg';
+import evDonatePaathshala from '/public/images/events/donate-for-paathshala.jpg';
+import evDonatePaathshalaSingle from '/public/images/events/donate-for-paathshala-single.jpg';
+import evProjectPrakriti from '/public/images/events/project-prakriti.jpg';
+import evProjectPrakritiSingle from '/public/images/events/project-prakriti-single.jpg';
+import evPaathshala from '/public/images/events/paathshala.jpg';
+import evPaathshalaSingle from '/public/images/events/paathshala-single.jpg';
+import evBlankets from '/public/images/events/blankets-drive.jpg';
+import evBlanketsSingle from '/public/images/events/blankets-drive-single.jpg';
+import evMedanta from '/public/images/events/medanta-health-camp.jpg';
+import evMedantaSingle from '/public/images/events/medanta-health-camp-single.jpg';
+
 
 
 
@@ -22,8 +38,9 @@ const Services = [
         subtitle: 'Blood Donation Camp',
         subheading: "In the bustling streets of Bhagalpur, amidst the daily hustle and bustle, a beacon of compassion emerged in the form of We Care NGO. Founded in June 2018, our journey began with a simple yet profound mission: to address the pressing need for blood donations in our community.",
         slug: 'Blood-Donation-Camp',
-        eimg: eimg1,
-        eSimg: esing1,
+        eimg: evBloodDonationCamp,
+        eSimg: evBloodDonationCampSingle,
+        simage: evBloodDonationCampSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
         data: [
@@ -59,8 +76,9 @@ const Services = [
         subtitle: '',
         subheading: 'Become a volunteer',
         slug: 'Become-a-volunteer',
-        eimg: eimg1,
-        eSimg: esing1,
+        eimg: evBecomeVolunteer,
+        eSimg: evBecomeVolunteerSingle,
+        simage: evBecomeVolunteerSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
     },
@@ -70,8 +88,9 @@ const Services = [
         subtitle: '',
         subheading: 'Donate for paathshala',
         slug: 'Donate-for-paathshala',
-        eimg: eimg1,
-        eSimg: esing1,
+        eimg: evDonatePaathshala,
+        eSimg: evDonatePaathshalaSingle,
+        simage: evDonatePaathshalaSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
     },
@@ -147,8 +166,9 @@ const Services = [
         subtitle: '',
         subheading: "Project Prakriti, initiated by We Care in 2021, is a heartfelt effort to protect the environment by blending tree preservation with community-driven planting activities. This three-month project focused on sustainable forestry and meaningful community involvement.",
         slug: 'Project-Prakriti',
-        eimg: eimg4,
-        eSimg: esing4,
+        eimg: evProjectPrakriti,
+        eSimg: evProjectPrakritiSingle,
+        simage: evProjectPrakritiSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
         data: [
@@ -225,8 +245,9 @@ const Services = [
         subtitle: 'Paathshala',
         subheading: `In July 2022, 'We Care' launched Paathshala "Udaan Hausloon Ki" in the Refugee Colony, sparking a transformative journey for slum children. This initiative was more than just a classroom; it became a beacon of hope, offering not only education but also a path to a better life.`,
         slug: 'Paathshala',
-        eimg: eimg6,
-        eSimg: esing6,
+        eimg: evPaathshala,
+        eSimg: evPaathshalaSingle,
+        simage: evPaathshalaSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
         data: [
@@ -257,8 +278,9 @@ const Services = [
         subtitle: 'Blankets & warm Clothes Distribution Drive',
         subheading: 'Since 2018,our NGO has passionately worked to foster a sense of community and support among society’s most vulnerable members.Each year, as the biting chill of winter envelops the city,our dedicated team embarks on a mission of warmth and compassion.On December last week,a night brimming with the promise of new beginnings,we distribute blankets to those who need them the most.',
         slug: 'Blankets-&-warm-Clothes-Distribution-Drive',
-        eimg: eimg6,
-        eSimg: esing6,
+        eimg: evBlankets,
+        eSimg: evBlanketsSingle,
+        simage: evBlanketsSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
         data: [
@@ -413,8 +435,9 @@ This summer, let’s be the reason someone survives the heat.
         subtitle: ' Medanta Monthly Health Check-Up & Awareness Camp',
         subheading: 'In health, there is strength. In awareness, there is prevention. This is the driving force behind our collaborative initiative—The Monthly Health Check-Up & Awareness Camp in partnership with Medanta Hospital and powered by WE CARE.',
         slug: 'Medanta-Monthly-Health-camp',
-        eimg: eimg6,
-        eSimg: esing6,
+        eimg: evMedanta,
+        eSimg: evMedantaSingle,
+        simage: evMedantaSingle,
         location: '7 Lake Street,London',
         date: '15 Dec 2025',
         data: [

@@ -1911,6 +1911,13 @@
         padding-bottom: 0px;
 
         h3 {
+            color: $heading-color;
+            font-family: $heading-font;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 30px;
+            margin-bottom: 5px;
+
             a {
                 color: $heading-color;
                 font-family: $heading-font;
@@ -1931,6 +1938,68 @@
     }
 
 
+}
+
+/* 5.8.1 leadership-section */
+.leadership-section {
+    padding: 30px 0;
+
+    @include media-query(991px) {
+        padding: 20px 0;
+    }
+
+    &.leadership-first {
+        padding-top: 100px;
+
+        @include media-query(991px) {
+            padding-top: 80px;
+        }
+
+        @include media-query(767px) {
+            padding-top: 70px;
+        }
+    }
+
+    &.leadership-last {
+        padding-bottom: 100px;
+
+        @include media-query(991px) {
+            padding-bottom: 80px;
+        }
+
+        @include media-query(767px) {
+            padding-bottom: 70px;
+        }
+    }
+
+    .section-title {
+        margin-top: 0;
+        margin-bottom: 10px;
+
+        h2 {
+            font-size: 42px;
+            line-height: 50px;
+
+            @include media-query(767px) {
+                font-size: 30px;
+                line-height: 38px;
+            }
+        }
+    }
+
+    .vol-card {
+        margin-bottom: 0;
+
+        .image {
+            img {
+                width: 100%;
+                height: auto;
+                aspect-ratio: 302 / 351;
+                object-fit: cover;
+                object-position: top center;
+            }
+        }
+    }
 }
 
 /* 5.9 project-section */
